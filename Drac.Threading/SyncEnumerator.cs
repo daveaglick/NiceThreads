@@ -8,15 +8,19 @@ using System.Threading;
 namespace Drac.Threading
 {
     //Based on code from http://www.codeproject.com/KB/cs/safe_enumerable.aspx
-    public class SyncEnumerator<T> : IEnumerator<T>
+    public class SyncEnumerator<T> : IEnumerator<T>, IEnumerable<T>
     {
         private readonly IEnumerator<T> _enumerator;
         private readonly ReaderWriterLockSlim _lock;
 
-        public SyncEnumerator(IEnumerable<T> enumerable, ReaderWriterLockSlim lockSlim)
+        // locked => indicates if the LockSlim has already been locked (MUST be a read lock if so), if not, this will get a read lock
+        public SyncEnumerator(IEnumerable<T> enumerable, ReaderWriterLockSlim lockSlim, bool locked = false)
         {
             _lock = lockSlim;
-            _lock.EnterReadLock();
+            if (!locked)
+            {
+                _lock.EnterReadLock();
+            }
             _enumerator = enumerable.GetEnumerator();
         }
 
@@ -43,6 +47,16 @@ namespace Drac.Threading
         object IEnumerator.Current
         {
             get { return Current; }
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return this;
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this;
         }
     }
 }

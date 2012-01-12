@@ -6,19 +6,16 @@ using System.Threading;
 
 namespace Drac.Threading
 {
-    public class ReadLock : IDisposable
+    public class ReadLock : DisposableLock
     {
-        private readonly ReaderWriterLockSlim _lockSlim;
-
-        public ReadLock(ReaderWriterLockSlim lockSlim)
+        public ReadLock(ReaderWriterLockSlim lockSlim) : base(lockSlim)
         {
-            _lockSlim = lockSlim;
-            _lockSlim.EnterReadLock();
+            LockSlim.EnterReadLock();
         }
 
-        public void Dispose()
+        public override void Dispose()
         {
-            _lockSlim.ExitReadLock();
+            LockSlim.ExitReadLock();
         }
     }
 }

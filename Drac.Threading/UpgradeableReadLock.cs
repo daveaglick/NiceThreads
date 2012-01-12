@@ -5,19 +5,16 @@ using System.Text;
 using System.Threading;
 namespace Drac.Threading
 {
-    public class UpgradeableReadLock : IDisposable
+    public class UpgradeableReadLock : DisposableLock
     {
-        private readonly ReaderWriterLockSlim _lockSlim;
-
-        public UpgradeableReadLock(ReaderWriterLockSlim lockSlim)
+        public UpgradeableReadLock(ReaderWriterLockSlim lockSlim) : base(lockSlim)
         {
-            _lockSlim = lockSlim;
-            _lockSlim.EnterUpgradeableReadLock();
+            LockSlim.EnterUpgradeableReadLock();
         }
 
-        public void Dispose()
+        public override void Dispose()
         {
-            _lockSlim.ExitUpgradeableReadLock();
+            LockSlim.ExitUpgradeableReadLock();
         }
     }
 }
