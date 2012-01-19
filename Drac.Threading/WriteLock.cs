@@ -8,10 +8,15 @@ namespace Drac.Threading
 {
     public class WriteLock : DisposableLock
     {
-        public WriteLock(ReaderWriterLockSlim lockSlim) : base(lockSlim)
+        public WriteLock(ReaderWriterLockSlim lockSlim, TimeSpan timeout) : base(lockSlim)
         {
-            LockSlim.EnterWriteLock();
+            if(!LockSlim.TryEnterWriteLock(timeout))
+            {
+                throw new TimeoutException();
+            }
         }
+
+        public WriteLock(ReaderWriterLockSlim lockSlim) : this(lockSlim, Timeout) {}
 
         public override void Dispose()
         {

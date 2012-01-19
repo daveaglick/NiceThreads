@@ -48,6 +48,21 @@ namespace Drac.Threading
         {
             return new WriteLock(_lockSlim);
         }
+
+        public IDisposable ReadLock(TimeSpan timeout)
+        {
+            return new ReadLock(_lockSlim, timeout);
+        }
+
+        public IDisposable UpgradeableReadLock(TimeSpan timeout)
+        {
+            return new UpgradeableReadLock(_lockSlim, timeout);
+        }
+
+        public IDisposable WriteLock(TimeSpan timeout)
+        {
+            return new WriteLock(_lockSlim, timeout);
+        }
         
         public void DoRead(Action<T> action)
         {

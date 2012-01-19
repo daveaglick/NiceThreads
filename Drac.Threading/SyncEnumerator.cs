@@ -15,11 +15,19 @@ namespace Drac.Threading
 
         // locked => indicates if the LockSlim has already been locked (MUST be a read lock if so), if not, this will get a read lock
         public SyncEnumerator(IEnumerable<T> enumerable, ReaderWriterLockSlim lockSlim, bool locked = false)
+            : this(enumerable, lockSlim, DisposableLock.Timeout, locked)
+        {
+        }
+
+        public SyncEnumerator(IEnumerable<T> enumerable, ReaderWriterLockSlim lockSlim, TimeSpan timeout, bool locked = false)
         {
             _lock = lockSlim;
             if (!locked)
             {
-                _lock.EnterReadLock();
+                if(!_lock.TryEnterReadLock(timeout))
+                {
+                    throw new TimeoutException();
+                }
             }
             _enumerator = enumerable.GetEnumerator();
         }

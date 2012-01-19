@@ -7,10 +7,15 @@ namespace Drac.Threading
 {
     public class UpgradeableReadLock : DisposableLock
     {
-        public UpgradeableReadLock(ReaderWriterLockSlim lockSlim) : base(lockSlim)
+        public UpgradeableReadLock(ReaderWriterLockSlim lockSlim, TimeSpan timeout) : base(lockSlim)
         {
-            LockSlim.EnterUpgradeableReadLock();
+            if(!LockSlim.TryEnterUpgradeableReadLock(timeout))
+            {
+                throw new TimeoutException();
+            }
         }
+
+        public UpgradeableReadLock(ReaderWriterLockSlim lockSlim) : this(lockSlim, Timeout) { }
 
         public override void Dispose()
         {
