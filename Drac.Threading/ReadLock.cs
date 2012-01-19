@@ -8,19 +8,19 @@ namespace Drac.Threading
 {
     public class ReadLock : DisposableLock
     {
-        public ReadLock(ReaderWriterLockSlim lockSlim, TimeSpan timeout) : base(lockSlim)
+        public ReadLock(ILocker locker, TimeSpan timeout) : base(locker)
         {
-            if(!LockSlim.TryEnterReadLock(timeout))
+            if(!Locker.TryEnterReadLock(timeout))
             {
                 throw new TimeoutException();
             }
         }
 
-        public ReadLock(ReaderWriterLockSlim lockSlim) : this(lockSlim, Timeout) { }
+        public ReadLock(ILocker locker) : this(locker, Globals.Timeout) { }
 
         public override void Dispose()
         {
-            LockSlim.ExitReadLock();
+            Locker.ExitReadLock();
         }
     }
 }

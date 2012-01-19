@@ -11,20 +11,20 @@ namespace Drac.Threading
     public class SyncEnumerator<T> : IEnumerator<T>, IEnumerable<T>
     {
         private readonly IEnumerator<T> _enumerator;
-        private readonly ReaderWriterLockSlim _lock;
+        private readonly ILocker _locker;
 
         // locked => indicates if the LockSlim has already been locked (MUST be a read lock if so), if not, this will get a read lock
-        public SyncEnumerator(IEnumerable<T> enumerable, ReaderWriterLockSlim lockSlim, bool locked = false)
-            : this(enumerable, lockSlim, DisposableLock.Timeout, locked)
+        public SyncEnumerator(IEnumerable<T> enumerable, ILocker locker, bool locked = false)
+            : this(enumerable, locker, Globals.Timeout, locked)
         {
         }
 
-        public SyncEnumerator(IEnumerable<T> enumerable, ReaderWriterLockSlim lockSlim, TimeSpan timeout, bool locked = false)
+        public SyncEnumerator(IEnumerable<T> enumerable, ILocker locker, TimeSpan timeout, bool locked = false)
         {
-            _lock = lockSlim;
+            _locker = locker;
             if (!locked)
             {
-                if(!_lock.TryEnterReadLock(timeout))
+                if(!_locker.TryEnterReadLock(timeout))
                 {
                     throw new TimeoutException();
                 }
@@ -34,7 +34,7 @@ namespace Drac.Threading
 
         public void Dispose()
         {
-            _lock.ExitReadLock();
+            _locker.ExitReadLock();
         }
 
         public bool MoveNext()

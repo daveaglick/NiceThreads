@@ -41,8 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DisposableLock.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="ILocker.cs" />
     <Compile Include="ISyncObject.cs" />
+    <Compile Include="MonitorLocker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReaderWriterLockSlimLocker.cs" />
     <Compile Include="ReadLock.cs" />
     <Compile Include="ReadOnlySyncObject.cs" />
     <Compile Include="SyncEnumerator.cs" />

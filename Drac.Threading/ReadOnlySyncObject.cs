@@ -9,11 +9,11 @@ namespace Drac.Threading
     //Mimics the semantics of a readonly field in that the underlying object cannot be changed once constructed
     public class ReadOnlySyncObject<T> : ISyncObject<T>
     {
-        private readonly ReaderWriterLockSlim _lockSlim = new ReaderWriterLockSlim();
+        private readonly ILocker _locker;
 
-        public ReaderWriterLockSlim LockSlim
+        public ILocker Locker
         {
-            get { return _lockSlim; }
+            get { return _locker; }
         }
 
         public readonly T UnsyncField;    //Expose this directly so it can be used anywhere the variable is expected (such as in ref or out parameters)
@@ -29,38 +29,44 @@ namespace Drac.Threading
         }
 
         public ReadOnlySyncObject(T value)
+            : this(value, Globals.GetDefaultLocker())
+        {
+        }
+
+        public ReadOnlySyncObject(T value, ILocker locker)
         {
             UnsyncField = value;
+            _locker = locker;
         }
 
         public IDisposable ReadLock()
         {
-            return new ReadLock(_lockSlim);
+            return new ReadLock(_locker);
         }
 
         public IDisposable UpgradeableReadLock()
         {
-            return new UpgradeableReadLock(_lockSlim);
+            return new UpgradeableReadLock(_locker);
         }
 
         public IDisposable WriteLock()
         {
-            return new WriteLock(_lockSlim);
+            return new WriteLock(_locker);
         }
 
         public IDisposable ReadLock(TimeSpan timeout)
         {
-            return new ReadLock(_lockSlim, timeout);
+            return new ReadLock(_locker, timeout);
         }
 
         public IDisposable UpgradeableReadLock(TimeSpan timeout)
         {
-            return new UpgradeableReadLock(_lockSlim, timeout);
+            return new UpgradeableReadLock(_locker, timeout);
         }
 
         public IDisposable WriteLock(TimeSpan timeout)
         {
-            return new WriteLock(_lockSlim, timeout);
+            return new WriteLock(_locker, timeout);
         }
         
         public void DoRead(Action<T> action)

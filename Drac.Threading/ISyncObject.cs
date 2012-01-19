@@ -8,7 +8,7 @@ namespace Drac.Threading
 {
     public interface ISyncObject<T>
     {
-        ReaderWriterLockSlim LockSlim { get; }
+        ILocker Locker { get; }
         T Sync { get; }
         T Unsync { get; }
         IDisposable ReadLock();
