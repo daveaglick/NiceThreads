@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.3.0" projectFile="C:\Code\NiceThreads\Doc\Doc.shfbproj" started="2/16/2012 1:16:32 PM">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.3.0" projectFile="C:\Code\NiceThreads\Doc\Doc.shfbproj" started="2/16/2012 2:22:55 PM">
 <buildStep step="Initializing">
 </buildStep>
 <buildStep step="FindingTools">
@@ -12,7 +12,7 @@ Source: C:\Code\NiceThreads\NiceThreads\NiceThreads.csproj
     Found project &#39;C:\Code\NiceThreads\NiceThreads\NiceThreads.csproj&#39;
 
 Parsing project files
-    Found assembly &#39;C:\Code\NiceThreads\NiceThreads\bin\Debug\NiceThreads.dll&#39;
+    Found assembly &#39;C:\Code\NiceThreads\NiceThreads\bin\Release\NiceThreads.dll&#39;
 
 References to use:
     System
@@ -23,15 +23,15 @@ References to use:
     System.Xml.Linq
 
 Copying XML comments files
-    C:\Code\NiceThreads\NiceThreads\bin\Debug\NiceThreads.xml -&gt; C:\Code\NiceThreads\Doc\Api\Working\NiceThreads.xml
+    C:\Code\NiceThreads\NiceThreads\bin\Release\NiceThreads.xml -&gt; C:\Code\NiceThreads\Doc\Api\Working\NiceThreads.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0312
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -44,7 +44,7 @@ Generating reflection information...
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
   reflection.all -&gt; reflection.org
-    Last step completed in 00:00:02.1061
+    Last step completed in 00:00:02.6674
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
@@ -55,7 +55,7 @@ Applying visibility properties to reflection information file
     0 attribute nodes removed
     2 explicit interface implementations removed
     2 local and base class EII elements removed
-    Last step completed in 00:00:00.2808
+    Last step completed in 00:00:00.4056
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -63,19 +63,19 @@ Transforming reflection output...
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyPrototypeDocModel.xsl&#39;.
-  reflection.org -&gt; C:\Users\dglick\AppData\Local\Temp\tmp5FDF.tmp
+  reflection.org -&gt; C:\Users\dglick\AppData\Local\Temp\tmp26B8.tmp
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
-  C:\Users\dglick\AppData\Local\Temp\tmp5FDF.tmp -&gt; reflection.xml
+  C:\Users\dglick\AppData\Local\Temp\tmp26B8.tmp -&gt; reflection.xml
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
   reflection.xml -&gt; manifest.xml
-    Last step completed in 00:00:00.9048
+    Last step completed in 00:00:01.1387
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
     No changes required
-    Last step completed in 00:00:00.0468
+    Last step completed in 00:00:00.0312
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -131,7 +131,7 @@ C:\Program Files (x86)\Sandcastle\Presentation\Prototype\scripts\script_prototyp
 C:\Program Files (x86)\Sandcastle\Presentation\Prototype\scripts\SplitScreen.js -&gt; C:\Code\NiceThreads\Doc\Api\Working\Output\Website\scripts\SplitScreen.js
 C:\Program Files (x86)\Sandcastle\Presentation\Prototype\scripts\StyleUtilities.js -&gt; C:\Code\NiceThreads\Doc\Api\Working\Output\Website\scripts\StyleUtilities.js
 C:\Program Files (x86)\Sandcastle\Presentation\Prototype\styles\presentation.css -&gt; C:\Code\NiceThreads\Doc\Api\Working\Output\Website\styles\presentation.css
-    Last step completed in 00:00:00.2184
+    Last step completed in 00:00:00.2652
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -150,7 +150,7 @@ Generating intermediate table of contents file...
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreatePrototypeToc.xsl&#39;.
   reflection.xml -&gt; toc.xml
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.4992
+    Last step completed in 00:00:00.5460
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
@@ -160,7 +160,7 @@ Creating Sandcastle configuration files...
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Code\NiceThreads\Doc\Api\Working\sandcastle.config
-    Last step completed in 00:00:00.5928
+    Last step completed in 00:00:00.8268
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -1387,7 +1387,7 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:NiceThreads.WriteLock.Dispose
   Info: ShowMissingComponent: Auto-documenting dispose method M:NiceThreads.WriteLock.Dispose
   Info: Processed 129 topics
-    Last step completed in 00:01:02.7764
+    Last step completed in 00:01:00.1813
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -1409,7 +1409,7 @@ Processed 129 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Code\NiceThreads\Doc\Api\Working\WebKI.xml
 Saving website table of contents to C:\Code\NiceThreads\Doc\Api\Working\WebTOC.xml
-    Last step completed in 00:00:00.4212
+    Last step completed in 00:00:00.4056
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -1418,7 +1418,7 @@ Generating website table of contents file...
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.7488
+    Last step completed in 00:00:00.7020
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -1626,15 +1626,15 @@ C:\Code\NiceThreads\Doc\Api\Working\Output\Website\scripts\script_prototype.js -
 C:\Code\NiceThreads\Doc\Api\Working\Output\Website\scripts\SplitScreen.js -&gt; C:\Code\NiceThreads\Doc\Api\scripts\SplitScreen.js
 C:\Code\NiceThreads\Doc\Api\Working\Output\Website\scripts\StyleUtilities.js -&gt; C:\Code\NiceThreads\Doc\Api\scripts\StyleUtilities.js
 C:\Code\NiceThreads\Doc\Api\Working\Output\Website\styles\presentation.css -&gt; C:\Code\NiceThreads\Doc\Api\styles\presentation.css
-    Last step completed in 00:00:02.2465
+    Last step completed in 00:00:02.7298
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.1092
+    Last step completed in 00:00:00.4212
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 02/16/2012 01:17 PM.  Total time: 00:01:11.2787
+Build completed successfully at 02/16/2012 02:24 PM.  Total time: 00:01:10.8043
 
 </buildStep>
 </shfbBuild>
