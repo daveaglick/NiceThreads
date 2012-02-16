@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace Drac.Threading
+namespace NiceThreads
 {
     //Based on code from http://www.codeproject.com/KB/cs/safe_enumerable.aspx
     public class SyncEnumerator<T> : IEnumerator<T>, IEnumerable<T>

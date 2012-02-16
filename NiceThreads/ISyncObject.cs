@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace Drac.Threading
+namespace NiceThreads
 {
     public interface ISyncObject<T>
     {

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace Drac.Threading
+namespace NiceThreads
 {
-    public class SyncObject<T> : ISyncObject<T>
+    //Mimics the semantics of a readonly field in that the underlying object cannot be changed once constructed
+    public class ReadOnlySyncObject<T> : ISyncObject<T>
     {
         private readonly ILocker _locker;
 
@@ -15,26 +16,24 @@ namespace Drac.Threading
             get { return _locker; }
         }
 
-        public T UnsyncField;    //Expose this directly so it can be used anywhere the variable is expected (such as in ref or out parameters)
+        public readonly T UnsyncField;    //Expose this directly so it can be used anywhere the variable is expected (such as in ref or out parameters)
 
         public T Unsync
         {
             get { return UnsyncField; }
-            set { UnsyncField = value; }
         }
 
         public T Sync
         {
             get { using (ReadLock()) { return UnsyncField; } }
-            set { using (WriteLock()) { UnsyncField = value; } }
         }
 
-        public SyncObject(T value)
+        public ReadOnlySyncObject(T value)
             : this(value, Globals.GetDefaultLocker())
         {
         }
 
-        public SyncObject(T value, ILocker locker)
+        public ReadOnlySyncObject(T value, ILocker locker)
         {
             UnsyncField = value;
             _locker = locker;

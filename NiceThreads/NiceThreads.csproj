@@ -8,8 +8,8 @@
     <ProjectGuid>{732FE58C-EE63-4AD8-8CB9-F711211B7391}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Drac.Threading</RootNamespace>
-    <AssemblyName>Drac.Threading</AssemblyName>
+    <RootNamespace>NiceThreads</RootNamespace>
+    <AssemblyName>NiceThreads</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
