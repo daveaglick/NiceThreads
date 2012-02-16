@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiceThreads", "NiceThreads\NiceThreads.csproj", "{732FE58C-EE63-4AD8-8CB9-F711211B7391}"
 EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Doc", "Doc\Doc.shfbproj", "{4A364004-DD7E-491C-9253-6376AFE3A5BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{732FE58C-EE63-4AD8-8CB9-F711211B7391}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{732FE58C-EE63-4AD8-8CB9-F711211B7391}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{732FE58C-EE63-4AD8-8CB9-F711211B7391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A364004-DD7E-491C-9253-6376AFE3A5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A364004-DD7E-491C-9253-6376AFE3A5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A364004-DD7E-491C-9253-6376AFE3A5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A364004-DD7E-491C-9253-6376AFE3A5BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,6 +6,10 @@ using System.Threading;
 
 namespace NiceThreads
 {
+    /// <summary>
+    /// Implements a thread-safe wrapper around objects that normally wouldn't be thread-safe.
+    /// </summary>
+    /// <typeparam name="T">The type of the object to be wrapped.</typeparam>
     public class SyncObject<T> : ISyncObject<T>
     {
         private readonly ILocker _locker;

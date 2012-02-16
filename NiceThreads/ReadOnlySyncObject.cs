@@ -6,7 +6,10 @@ using System.Threading;
 
 namespace NiceThreads
 {
-    //Mimics the semantics of a readonly field in that the underlying object cannot be changed once constructed
+    /// <summary>
+    /// Mimics the semantics of a readonly field in that the underlying object cannot be changed once constructed.
+    /// </summary>
+    /// <typeparam name="T">The type of the object to be wrapped.</typeparam>
     public class ReadOnlySyncObject<T> : ISyncObject<T>
     {
         private readonly ILocker _locker;

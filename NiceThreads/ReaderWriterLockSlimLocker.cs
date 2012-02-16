@@ -6,6 +6,9 @@ using System.Threading;
 
 namespace NiceThreads
 {
+    /// <summary>
+    /// Provides an ILocker implementation for the ReaderWriterLockSlim class.
+    /// </summary>
     public class ReaderWriterLockSlimLocker : ILocker
     {
         private readonly ReaderWriterLockSlim _readerWriterLockSlim;

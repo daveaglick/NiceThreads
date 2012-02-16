@@ -7,7 +7,11 @@ using System.Threading;
 
 namespace NiceThreads
 {
-    //Based on code from http://www.codeproject.com/KB/cs/safe_enumerable.aspx
+    /// <summary>
+    /// Provides thread-safe enumeration capabilities.
+    /// Based on code from http://www.codeproject.com/KB/cs/safe_enumerable.aspx.
+    /// </summary>
+    /// <typeparam name="T">The type of the objects being enumerated.</typeparam>
     public class SyncEnumerator<T> : IEnumerator<T>, IEnumerable<T>
     {
         private readonly IEnumerator<T> _enumerator;

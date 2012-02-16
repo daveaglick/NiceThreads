@@ -6,6 +6,9 @@ using System.Threading;
 
 namespace NiceThreads
 {
+    /// <summary>
+    /// Provides an ILocker implementation for the Monitor class.
+    /// </summary>
     public class MonitorLocker : ILocker
     {
         public void EnterReadLock()
