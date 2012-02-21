@@ -28,9 +28,9 @@
     <SyntaxFilters>Standard</SyntaxFilters>
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <RootNamespaceContainer>False</RootNamespaceContainer>
-    <PresentationStyle>Prototype</PresentationStyle>
+    <PresentationStyle>vs2005</PresentationStyle>
     <Preliminary>False</Preliminary>
-    <NamingMethod>Guid</NamingMethod>
+    <NamingMethod>HashedMemberName</NamingMethod>
     <HelpTitle>NiceThreads</HelpTitle>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <ProjectSummary>A threading utility library designed to make different threading primitives easier to use with a more consistent API.</ProjectSummary>

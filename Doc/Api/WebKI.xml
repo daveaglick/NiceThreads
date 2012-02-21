@@ -1,320 +1,337 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
 
-  <HelpKINode Title="Current property" Url="html/7e90c2e0-23c4-f664-491c-f372fb0d1afe.htm" />
-  <HelpKINode Title="DisposableLock class" Url="html/30d5d3c8-931b-ffbd-2347-163f5b6a9fb3.htm" />
-  <HelpKINode Title="DisposableLock constructor" Url="html/b024a4ee-1fa5-6654-d2fe-4c252984178b.htm" />
-  <HelpKINode Title="DisposableLock.Dispose method" Url="html/22d26ecf-9034-eaf0-6194-4ae01865202d.htm" />
-  <HelpKINode Title="DisposableLock.Locker property" Url="html/daa38333-580c-a8f1-9afa-78654fceafb5.htm" />
-  <HelpKINode Title="Dispose method" Url="html/22d26ecf-9034-eaf0-6194-4ae01865202d.htm" />
-  <HelpKINode Title="Dispose method" Url="html/5d4ededd-cd1f-db30-5b9b-47b43c8e2de4.htm" />
-  <HelpKINode Title="Dispose method" Url="html/8eed42a8-6c9b-a93e-8d46-2ef33db18b03.htm" />
-  <HelpKINode Title="Dispose method" Url="html/997b60ba-4eca-7497-8064-3125eff4e44a.htm" />
-  <HelpKINode Title="Dispose method" Url="html/aa88d425-c09e-142c-07c5-f1b3d051128c.htm" />
-  <HelpKINode Title="DoRead method" Url="html/38ec8058-b7e7-2ff0-72ad-306f140107f4.htm" />
-  <HelpKINode Title="DoRead method" Url="html/489664a9-661c-0c4c-d820-1ba79eb050cc.htm" />
-  <HelpKINode Title="DoRead method" Url="html/59be5284-2c14-564e-b88d-7ee0b995ddb2.htm" />
-  <HelpKINode Title="DoRead method" Url="html/63a84a4a-7a61-8252-fb37-bb830352d6db.htm" />
-  <HelpKINode Title="DoRead method" Url="html/b78945ca-c6da-2807-8b68-fe57a37224ac.htm" />
-  <HelpKINode Title="DoRead method" Url="html/e4ed725a-fafc-1dbe-7e1f-aca22f86d0da.htm" />
-  <HelpKINode Title="DoRead(Of TR) method" Url="html/5e36b3d7-dcaa-21a7-066d-232e9938b216.htm" />
-  <HelpKINode Title="DoRead(Of TR) method" Url="html/c2ec4ca0-508a-0258-6c09-00dc1b94b83b.htm" />
-  <HelpKINode Title="DoRead(Of TR) method" Url="html/e20207a3-fea7-00d5-f371-f03e475a2862.htm" />
-  <HelpKINode Title="DoRead&lt;TR&gt; method" Url="html/5e36b3d7-dcaa-21a7-066d-232e9938b216.htm" />
-  <HelpKINode Title="DoRead&lt;TR&gt; method" Url="html/c2ec4ca0-508a-0258-6c09-00dc1b94b83b.htm" />
-  <HelpKINode Title="DoRead&lt;TR&gt; method" Url="html/e20207a3-fea7-00d5-f371-f03e475a2862.htm" />
-  <HelpKINode Title="DoWrite method" Url="html/11f74282-bdd9-ab31-4502-5b21d420c369.htm" />
-  <HelpKINode Title="DoWrite method" Url="html/77d97df7-7a7b-dc65-0685-1e0f4db239d2.htm" />
-  <HelpKINode Title="DoWrite method" Url="html/97bea4e3-3488-f9c1-8aa2-529db4705334.htm" />
-  <HelpKINode Title="DoWrite method" Url="html/dcd11655-6a3d-3959-5412-f05205fe5cb7.htm" />
-  <HelpKINode Title="DoWrite method" Url="html/e5d1a6a1-5b16-4805-6be7-124b2e8c4eb6.htm" />
-  <HelpKINode Title="DoWrite method" Url="html/ffe8eb02-8f77-0b0f-5efb-c09e064fdc3e.htm" />
-  <HelpKINode Title="DoWrite(Of TR) method" Url="html/0f167b9f-4b54-4499-6557-7a786febc9a4.htm" />
-  <HelpKINode Title="DoWrite(Of TR) method" Url="html/78e92956-176a-5525-deb6-9cd051da966b.htm" />
-  <HelpKINode Title="DoWrite(Of TR) method" Url="html/e2a5db8e-fd6d-7030-3ae7-516e6ef270d6.htm" />
-  <HelpKINode Title="DoWrite&lt;TR&gt; method" Url="html/0f167b9f-4b54-4499-6557-7a786febc9a4.htm" />
-  <HelpKINode Title="DoWrite&lt;TR&gt; method" Url="html/78e92956-176a-5525-deb6-9cd051da966b.htm" />
-  <HelpKINode Title="DoWrite&lt;TR&gt; method" Url="html/e2a5db8e-fd6d-7030-3ae7-516e6ef270d6.htm" />
-  <HelpKINode Title="EnterReadLock method" Url="html/0844dda8-bf9a-6871-4ba3-24a116f6e868.htm" />
-  <HelpKINode Title="EnterReadLock method" Url="html/507562a8-6965-2685-232d-007a7e3a5af2.htm" />
-  <HelpKINode Title="EnterReadLock method" Url="html/bf2512b4-fb15-cf8a-b017-578b8a599d04.htm" />
-  <HelpKINode Title="EnterUpgradeableReadLock method" Url="html/e614c9e8-3f51-98e0-17da-ad586b41eca2.htm" />
-  <HelpKINode Title="EnterUpgradeableReadLock method" Url="html/e9f123a1-6ca7-8917-bb74-6f800adee36c.htm" />
-  <HelpKINode Title="EnterUpgradeableReadLock method" Url="html/f208c8c4-718a-557b-d388-e85a7a6d359a.htm" />
-  <HelpKINode Title="EnterWriteLock method" Url="html/6c6ce7ba-e0de-49f0-6e5d-b6c13e71d82d.htm" />
-  <HelpKINode Title="EnterWriteLock method" Url="html/89fdd8b7-b746-07cc-cc03-8ab8faa9602d.htm" />
-  <HelpKINode Title="EnterWriteLock method" Url="html/b5a63e0e-3f30-a369-6376-6463522df7cf.htm" />
-  <HelpKINode Title="ExitReadLock method" Url="html/70327f0e-45be-ebc0-76a4-55e8526bd68a.htm" />
-  <HelpKINode Title="ExitReadLock method" Url="html/c1392d27-50f3-7910-4e0f-0a14f3cbb001.htm" />
-  <HelpKINode Title="ExitReadLock method" Url="html/c85647d0-2abc-f20a-49dc-a86b7e673fac.htm" />
-  <HelpKINode Title="ExitUpgradeableReadLock method" Url="html/2ca93107-d438-bb1b-c41d-5e9246ee17a3.htm" />
-  <HelpKINode Title="ExitUpgradeableReadLock method" Url="html/c169b935-ad57-df9e-5d8b-b5ac86ba72e1.htm" />
-  <HelpKINode Title="ExitUpgradeableReadLock method" Url="html/cf3dcf15-59e3-907d-de8b-9100622d9655.htm" />
-  <HelpKINode Title="ExitWriteLock method" Url="html/6a018f90-5b74-d345-f7a0-c5b441b8f989.htm" />
-  <HelpKINode Title="ExitWriteLock method" Url="html/6eeb71f6-e7b8-737e-fb02-278090b49e4a.htm" />
-  <HelpKINode Title="ExitWriteLock method" Url="html/d1357aed-fcf4-26a2-e554-54a14facb0c6.htm" />
-  <HelpKINode Title="GetEnumerator method" Url="html/69c03d1c-a2b5-8599-abab-b1aedec6049e.htm" />
-  <HelpKINode Title="ILocker interface" Url="html/dd96d047-6bbb-5465-35b9-2efed64580ca.htm" />
-  <HelpKINode Title="ILocker.EnterReadLock method" Url="html/507562a8-6965-2685-232d-007a7e3a5af2.htm" />
-  <HelpKINode Title="ILocker.EnterUpgradeableReadLock method" Url="html/f208c8c4-718a-557b-d388-e85a7a6d359a.htm" />
-  <HelpKINode Title="ILocker.EnterWriteLock method" Url="html/89fdd8b7-b746-07cc-cc03-8ab8faa9602d.htm" />
-  <HelpKINode Title="ILocker.ExitReadLock method" Url="html/70327f0e-45be-ebc0-76a4-55e8526bd68a.htm" />
-  <HelpKINode Title="ILocker.ExitUpgradeableReadLock method" Url="html/c169b935-ad57-df9e-5d8b-b5ac86ba72e1.htm" />
-  <HelpKINode Title="ILocker.ExitWriteLock method" Url="html/6eeb71f6-e7b8-737e-fb02-278090b49e4a.htm" />
-  <HelpKINode Title="ILocker.TryEnterReadLock method" Url="html/6a14dc50-5942-8331-ba3c-2fb089e63b63.htm" />
-  <HelpKINode Title="ILocker.TryEnterUpgradeableReadLock method" Url="html/94475c7e-e1b8-8aad-8740-f9d1a72a9b13.htm" />
-  <HelpKINode Title="ILocker.TryEnterWriteLock method" Url="html/e31e1581-5a02-7b2b-2e3f-a614a9a3ebe1.htm" />
-  <HelpKINode Title="ISyncObject(Of T) interface" Url="html/8718f7be-fc3d-646f-5eb5-52aef31ebf64.htm" />
-  <HelpKINode Title="ISyncObject(Of T).DoRead method" Url="html/63a84a4a-7a61-8252-fb37-bb830352d6db.htm" />
-  <HelpKINode Title="ISyncObject(Of T).DoRead method" Url="html/e4ed725a-fafc-1dbe-7e1f-aca22f86d0da.htm" />
-  <HelpKINode Title="ISyncObject(Of T).DoRead(Of TR) method" Url="html/c2ec4ca0-508a-0258-6c09-00dc1b94b83b.htm" />
-  <HelpKINode Title="ISyncObject(Of T).DoWrite method" Url="html/77d97df7-7a7b-dc65-0685-1e0f4db239d2.htm" />
-  <HelpKINode Title="ISyncObject(Of T).DoWrite method" Url="html/ffe8eb02-8f77-0b0f-5efb-c09e064fdc3e.htm" />
-  <HelpKINode Title="ISyncObject(Of T).DoWrite(Of TR) method" Url="html/78e92956-176a-5525-deb6-9cd051da966b.htm" />
-  <HelpKINode Title="ISyncObject(Of T).Locker property" Url="html/9062f356-ff82-556b-9b1a-c3ec655434c3.htm" />
-  <HelpKINode Title="ISyncObject(Of T).ReadLock method" Url="html/3c3dc1e1-4696-c029-b91a-5f8cd37ed7c8.htm" />
-  <HelpKINode Title="ISyncObject(Of T).ReadLock method" Url="html/883305ba-9b3a-62f3-8cbd-031ccd05b030.htm" />
-  <HelpKINode Title="ISyncObject(Of T).ReadLock method" Url="html/e6f2af54-c051-829f-dd8f-e8aa2a4f7d8c.htm" />
-  <HelpKINode Title="ISyncObject(Of T).Sync property" Url="html/6eb3b847-59e6-ae28-4f47-c5b03479dd8e.htm" />
-  <HelpKINode Title="ISyncObject(Of T).Unsync property" Url="html/f6c42995-e98f-1e38-fd34-4a70d6cc8a10.htm" />
-  <HelpKINode Title="ISyncObject(Of T).UpgradeableReadLock method" Url="html/d9caca36-471b-da30-e6cd-e9193474f715.htm" />
-  <HelpKINode Title="ISyncObject(Of T).UpgradeableReadLock method" Url="html/da407b06-de7e-ef8c-0ce8-c816ed5d2bc2.htm" />
-  <HelpKINode Title="ISyncObject(Of T).UpgradeableReadLock method" Url="html/fab841a1-53f4-84f7-16d8-645a464e8feb.htm" />
-  <HelpKINode Title="ISyncObject(Of T).WriteLock method" Url="html/0ed52c79-b96a-30ac-a188-e20ab8eb23c0.htm" />
-  <HelpKINode Title="ISyncObject(Of T).WriteLock method" Url="html/85f265f2-7027-8d88-3aa2-d5bc1b5dc218.htm" />
-  <HelpKINode Title="ISyncObject(Of T).WriteLock method" Url="html/a87f7b29-7d3a-375f-8e81-ae55c3d792d5.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt; interface" Url="html/8718f7be-fc3d-646f-5eb5-52aef31ebf64.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.DoRead method" Url="html/63a84a4a-7a61-8252-fb37-bb830352d6db.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.DoRead method" Url="html/e4ed725a-fafc-1dbe-7e1f-aca22f86d0da.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.DoRead&lt;TR&gt; method" Url="html/c2ec4ca0-508a-0258-6c09-00dc1b94b83b.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.DoWrite method" Url="html/77d97df7-7a7b-dc65-0685-1e0f4db239d2.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.DoWrite method" Url="html/ffe8eb02-8f77-0b0f-5efb-c09e064fdc3e.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.DoWrite&lt;TR&gt; method" Url="html/78e92956-176a-5525-deb6-9cd051da966b.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.Locker property" Url="html/9062f356-ff82-556b-9b1a-c3ec655434c3.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.ReadLock method" Url="html/3c3dc1e1-4696-c029-b91a-5f8cd37ed7c8.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.ReadLock method" Url="html/883305ba-9b3a-62f3-8cbd-031ccd05b030.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.ReadLock method" Url="html/e6f2af54-c051-829f-dd8f-e8aa2a4f7d8c.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.Sync property" Url="html/6eb3b847-59e6-ae28-4f47-c5b03479dd8e.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.Unsync property" Url="html/f6c42995-e98f-1e38-fd34-4a70d6cc8a10.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.UpgradeableReadLock method" Url="html/d9caca36-471b-da30-e6cd-e9193474f715.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.UpgradeableReadLock method" Url="html/da407b06-de7e-ef8c-0ce8-c816ed5d2bc2.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.UpgradeableReadLock method" Url="html/fab841a1-53f4-84f7-16d8-645a464e8feb.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.WriteLock method" Url="html/0ed52c79-b96a-30ac-a188-e20ab8eb23c0.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.WriteLock method" Url="html/85f265f2-7027-8d88-3aa2-d5bc1b5dc218.htm" />
-  <HelpKINode Title="ISyncObject&lt;T&gt;.WriteLock method" Url="html/a87f7b29-7d3a-375f-8e81-ae55c3d792d5.htm" />
-  <HelpKINode Title="Locker property" Url="html/04ad4aed-dd8c-41ad-9b47-23d69876792a.htm" />
-  <HelpKINode Title="Locker property" Url="html/9062f356-ff82-556b-9b1a-c3ec655434c3.htm" />
-  <HelpKINode Title="Locker property" Url="html/daa38333-580c-a8f1-9afa-78654fceafb5.htm" />
-  <HelpKINode Title="Locker property" Url="html/e24aaf35-db4c-cdb7-5274-3b01c864aea9.htm" />
-  <HelpKINode Title="MonitorLocker class" Url="html/105b86b0-499c-1060-5216-fdb38cc29974.htm" />
-  <HelpKINode Title="MonitorLocker constructor" Url="html/c0220b70-a69d-6e11-27e0-8421942fd0c4.htm" />
-  <HelpKINode Title="MonitorLocker.EnterReadLock method" Url="html/0844dda8-bf9a-6871-4ba3-24a116f6e868.htm" />
-  <HelpKINode Title="MonitorLocker.EnterUpgradeableReadLock method" Url="html/e9f123a1-6ca7-8917-bb74-6f800adee36c.htm" />
-  <HelpKINode Title="MonitorLocker.EnterWriteLock method" Url="html/b5a63e0e-3f30-a369-6376-6463522df7cf.htm" />
-  <HelpKINode Title="MonitorLocker.ExitReadLock method" Url="html/c85647d0-2abc-f20a-49dc-a86b7e673fac.htm" />
-  <HelpKINode Title="MonitorLocker.ExitUpgradeableReadLock method" Url="html/cf3dcf15-59e3-907d-de8b-9100622d9655.htm" />
-  <HelpKINode Title="MonitorLocker.ExitWriteLock method" Url="html/6a018f90-5b74-d345-f7a0-c5b441b8f989.htm" />
-  <HelpKINode Title="MonitorLocker.TryEnterReadLock method" Url="html/05fb0a5f-7683-4c18-d447-83a6599fa894.htm" />
-  <HelpKINode Title="MonitorLocker.TryEnterUpgradeableReadLock method" Url="html/99c5fc82-de1f-e1d0-a004-6fa3aa83fac7.htm" />
-  <HelpKINode Title="MonitorLocker.TryEnterWriteLock method" Url="html/ec24e448-e462-31c0-bb54-ccb7cdc90dc1.htm" />
-  <HelpKINode Title="MoveNext method" Url="html/9c3c28f5-24c4-a921-7dcd-1faea993e6a7.htm" />
-  <HelpKINode Title="NiceThreads namespace" Url="html/a0f6dd63-a063-7c61-52a6-943ff2a5c1ba.htm" />
-  <HelpKINode Title="NiceThreads.DisposableLock class" Url="html/30d5d3c8-931b-ffbd-2347-163f5b6a9fb3.htm" />
-  <HelpKINode Title="NiceThreads.ILocker interface" Url="html/dd96d047-6bbb-5465-35b9-2efed64580ca.htm" />
-  <HelpKINode Title="NiceThreads.ISyncObject(Of T) interface" Url="html/8718f7be-fc3d-646f-5eb5-52aef31ebf64.htm" />
-  <HelpKINode Title="NiceThreads.ISyncObject&lt;T&gt; interface" Url="html/8718f7be-fc3d-646f-5eb5-52aef31ebf64.htm" />
-  <HelpKINode Title="NiceThreads.MonitorLocker class" Url="html/105b86b0-499c-1060-5216-fdb38cc29974.htm" />
-  <HelpKINode Title="NiceThreads.ReaderWriterLockSlimLocker class" Url="html/ec70225e-47d8-c5ee-d517-c3dd0b40cc8d.htm" />
-  <HelpKINode Title="NiceThreads.ReadLock class" Url="html/ee6e52b1-a1d6-eb61-708b-e7c9d447dd9f.htm" />
-  <HelpKINode Title="NiceThreads.ReadOnlySyncObject(Of T) class" Url="html/294a363d-dbeb-f7af-0696-5057246762d3.htm" />
-  <HelpKINode Title="NiceThreads.ReadOnlySyncObject&lt;T&gt; class" Url="html/294a363d-dbeb-f7af-0696-5057246762d3.htm" />
-  <HelpKINode Title="NiceThreads.SyncEnumerator(Of T) class" Url="html/c9c7bafe-ada3-762d-014e-0f5d0ce6c06d.htm" />
-  <HelpKINode Title="NiceThreads.SyncEnumerator&lt;T&gt; class" Url="html/c9c7bafe-ada3-762d-014e-0f5d0ce6c06d.htm" />
-  <HelpKINode Title="NiceThreads.SyncObject(Of T) class" Url="html/bacf62dc-1762-8bc6-eb3f-55b0eff23573.htm" />
-  <HelpKINode Title="NiceThreads.SyncObject&lt;T&gt; class" Url="html/bacf62dc-1762-8bc6-eb3f-55b0eff23573.htm" />
-  <HelpKINode Title="NiceThreads.UpgradeableReadLock class" Url="html/7308e4f9-4478-dfd9-7f7f-fc02e737e022.htm" />
-  <HelpKINode Title="NiceThreads.WriteLock class" Url="html/66f8d4ad-5c42-bccc-86d5-9e02fc66aacc.htm" />
-  <HelpKINode Title="ReaderWriterLockSlimLocker class" Url="html/ec70225e-47d8-c5ee-d517-c3dd0b40cc8d.htm" />
-  <HelpKINode Title="ReaderWriterLockSlimLocker constructor" Url="html/044adedd-3ca2-012d-ec0c-0a2c8752a06f.htm" />
-  <HelpKINode Title="ReaderWriterLockSlimLocker constructor" Url="html/4604afca-f447-53c5-e16e-16e2e899e768.htm" />
-  <HelpKINode Title="ReaderWriterLockSlimLocker constructor" Url="html/60e9c3f2-9590-4649-15a7-b7f26527f281.htm" />
-  <HelpKINode Title="ReaderWriterLockSlimLocker.EnterReadLock method" Url="html/bf2512b4-fb15-cf8a-b017-578b8a599d04.htm" />
-  <HelpKINode Title="ReaderWriterLockSlimLocker.EnterUpgradeableReadLock method" Url="html/e614c9e8-3f51-98e0-17da-ad586b41eca2.htm" />
-  <HelpKINode Title="ReaderWriterLockSlimLocker.EnterWriteLock method" Url="html/6c6ce7ba-e0de-49f0-6e5d-b6c13e71d82d.htm" />
-  <HelpKINode Title="ReaderWriterLockSlimLocker.ExitReadLock method" Url="html/c1392d27-50f3-7910-4e0f-0a14f3cbb001.htm" />
-  <HelpKINode Title="ReaderWriterLockSlimLocker.ExitUpgradeableReadLock method" Url="html/2ca93107-d438-bb1b-c41d-5e9246ee17a3.htm" />
-  <HelpKINode Title="ReaderWriterLockSlimLocker.ExitWriteLock method" Url="html/d1357aed-fcf4-26a2-e554-54a14facb0c6.htm" />
-  <HelpKINode Title="ReaderWriterLockSlimLocker.TryEnterReadLock method" Url="html/fff7e0e1-0953-691e-c983-77849607fa48.htm" />
-  <HelpKINode Title="ReaderWriterLockSlimLocker.TryEnterUpgradeableReadLock method" Url="html/2532bb9b-c1bc-b78b-8880-50ef033524a6.htm" />
-  <HelpKINode Title="ReaderWriterLockSlimLocker.TryEnterWriteLock method" Url="html/824cb832-87da-d30f-924a-90ffce12dcc6.htm" />
-  <HelpKINode Title="ReadLock class" Url="html/ee6e52b1-a1d6-eb61-708b-e7c9d447dd9f.htm" />
-  <HelpKINode Title="ReadLock constructor" Url="html/0703667f-3faf-b9bf-0c8e-68fbcfe69e48.htm" />
-  <HelpKINode Title="ReadLock constructor" Url="html/496fe3ac-e870-9ac1-f4fa-492d142fad35.htm" />
-  <HelpKINode Title="ReadLock constructor" Url="html/694acbcc-ccff-5407-412c-67188d672235.htm" />
-  <HelpKINode Title="ReadLock method" Url="html/24d94df7-bfb1-1c00-f54c-8762d7b80834.htm" />
-  <HelpKINode Title="ReadLock method" Url="html/2502400d-b375-dd57-ac71-d6016f9262c1.htm" />
-  <HelpKINode Title="ReadLock method" Url="html/3c3dc1e1-4696-c029-b91a-5f8cd37ed7c8.htm" />
-  <HelpKINode Title="ReadLock method" Url="html/561b6d0d-5874-3485-e022-b15ed7fc25f2.htm" />
-  <HelpKINode Title="ReadLock method" Url="html/883305ba-9b3a-62f3-8cbd-031ccd05b030.htm" />
-  <HelpKINode Title="ReadLock method" Url="html/956d54ac-bc50-7b82-80b3-8269c6369252.htm" />
-  <HelpKINode Title="ReadLock method" Url="html/a1632625-bdda-5bb1-b825-9bb4d5a84192.htm" />
-  <HelpKINode Title="ReadLock method" Url="html/e573abfc-b19e-a960-0ca1-5e81e8702c3a.htm" />
-  <HelpKINode Title="ReadLock method" Url="html/e6f2af54-c051-829f-dd8f-e8aa2a4f7d8c.htm" />
-  <HelpKINode Title="ReadLock.Dispose method" Url="html/997b60ba-4eca-7497-8064-3125eff4e44a.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T) class" Url="html/294a363d-dbeb-f7af-0696-5057246762d3.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T) constructor" Url="html/12a14018-3cc6-99d1-2835-972ee5524f09.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T) constructor" Url="html/3876eea5-b686-b033-3ea1-579eaebaf6ed.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T) constructor" Url="html/c1f96908-1639-41ea-180a-15d055080761.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).DoRead method" Url="html/38ec8058-b7e7-2ff0-72ad-306f140107f4.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).DoRead method" Url="html/489664a9-661c-0c4c-d820-1ba79eb050cc.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).DoRead(Of TR) method" Url="html/5e36b3d7-dcaa-21a7-066d-232e9938b216.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).DoWrite method" Url="html/97bea4e3-3488-f9c1-8aa2-529db4705334.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).DoWrite method" Url="html/e5d1a6a1-5b16-4805-6be7-124b2e8c4eb6.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).DoWrite(Of TR) method" Url="html/0f167b9f-4b54-4499-6557-7a786febc9a4.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).Locker property" Url="html/04ad4aed-dd8c-41ad-9b47-23d69876792a.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).ReadLock method" Url="html/2502400d-b375-dd57-ac71-d6016f9262c1.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).ReadLock method" Url="html/561b6d0d-5874-3485-e022-b15ed7fc25f2.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).ReadLock method" Url="html/a1632625-bdda-5bb1-b825-9bb4d5a84192.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).Sync property" Url="html/78983ca9-53d4-e780-50f8-41f981a8d128.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).Unsync property" Url="html/b2fa685f-dec4-13b7-2d3b-74f851965415.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).UnsyncField field" Url="html/10631756-2433-8a3c-cf1a-a9b99ea65abe.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).UpgradeableReadLock method" Url="html/3d3415fd-24c0-ec9e-2098-78a7e147f13a.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).UpgradeableReadLock method" Url="html/7abe01a0-151b-203b-70d3-2850bf988454.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).UpgradeableReadLock method" Url="html/b85060f8-4da0-06c6-3798-5f48fdfd2bba.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).WriteLock method" Url="html/409ca446-00cd-f051-98b7-8fa7d7e8d8e9.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).WriteLock method" Url="html/41610279-021d-8fba-aa04-7f7d4cc1bd1c.htm" />
-  <HelpKINode Title="ReadOnlySyncObject(Of T).WriteLock method" Url="html/cebb998d-9d55-2d84-7daf-ad312cdc9ed3.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt; class" Url="html/294a363d-dbeb-f7af-0696-5057246762d3.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt; constructor" Url="html/12a14018-3cc6-99d1-2835-972ee5524f09.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt; constructor" Url="html/3876eea5-b686-b033-3ea1-579eaebaf6ed.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt; constructor" Url="html/c1f96908-1639-41ea-180a-15d055080761.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.DoRead method" Url="html/38ec8058-b7e7-2ff0-72ad-306f140107f4.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.DoRead method" Url="html/489664a9-661c-0c4c-d820-1ba79eb050cc.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.DoRead&lt;TR&gt; method" Url="html/5e36b3d7-dcaa-21a7-066d-232e9938b216.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.DoWrite method" Url="html/97bea4e3-3488-f9c1-8aa2-529db4705334.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.DoWrite method" Url="html/e5d1a6a1-5b16-4805-6be7-124b2e8c4eb6.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.DoWrite&lt;TR&gt; method" Url="html/0f167b9f-4b54-4499-6557-7a786febc9a4.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.Locker property" Url="html/04ad4aed-dd8c-41ad-9b47-23d69876792a.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.ReadLock method" Url="html/2502400d-b375-dd57-ac71-d6016f9262c1.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.ReadLock method" Url="html/561b6d0d-5874-3485-e022-b15ed7fc25f2.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.ReadLock method" Url="html/a1632625-bdda-5bb1-b825-9bb4d5a84192.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.Sync property" Url="html/78983ca9-53d4-e780-50f8-41f981a8d128.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.Unsync property" Url="html/b2fa685f-dec4-13b7-2d3b-74f851965415.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.UnsyncField field" Url="html/10631756-2433-8a3c-cf1a-a9b99ea65abe.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.UpgradeableReadLock method" Url="html/3d3415fd-24c0-ec9e-2098-78a7e147f13a.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.UpgradeableReadLock method" Url="html/7abe01a0-151b-203b-70d3-2850bf988454.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.UpgradeableReadLock method" Url="html/b85060f8-4da0-06c6-3798-5f48fdfd2bba.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.WriteLock method" Url="html/409ca446-00cd-f051-98b7-8fa7d7e8d8e9.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.WriteLock method" Url="html/41610279-021d-8fba-aa04-7f7d4cc1bd1c.htm" />
-  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.WriteLock method" Url="html/cebb998d-9d55-2d84-7daf-ad312cdc9ed3.htm" />
-  <HelpKINode Title="Reset method" Url="html/85bf8cff-0477-aebd-c83b-4f89373b1f27.htm" />
-  <HelpKINode Title="Sync property" Url="html/6b995e4d-75d4-e30d-813b-fdb7dabafc46.htm" />
-  <HelpKINode Title="Sync property" Url="html/6eb3b847-59e6-ae28-4f47-c5b03479dd8e.htm" />
-  <HelpKINode Title="Sync property" Url="html/78983ca9-53d4-e780-50f8-41f981a8d128.htm" />
-  <HelpKINode Title="SyncEnumerator(Of T) class" Url="html/c9c7bafe-ada3-762d-014e-0f5d0ce6c06d.htm" />
-  <HelpKINode Title="SyncEnumerator(Of T) constructor" Url="html/2aa34b90-b5e2-53bf-d927-9d7cf603f85f.htm" />
-  <HelpKINode Title="SyncEnumerator(Of T) constructor" Url="html/484d5d91-c673-6a59-0597-e1f6f805a7f6.htm" />
-  <HelpKINode Title="SyncEnumerator(Of T) constructor" Url="html/6cc551df-b6f7-65ef-5a32-b91abd1da9c7.htm" />
-  <HelpKINode Title="SyncEnumerator(Of T).Current property" Url="html/7e90c2e0-23c4-f664-491c-f372fb0d1afe.htm" />
-  <HelpKINode Title="SyncEnumerator(Of T).Dispose method" Url="html/aa88d425-c09e-142c-07c5-f1b3d051128c.htm" />
-  <HelpKINode Title="SyncEnumerator(Of T).GetEnumerator method" Url="html/69c03d1c-a2b5-8599-abab-b1aedec6049e.htm" />
-  <HelpKINode Title="SyncEnumerator(Of T).MoveNext method" Url="html/9c3c28f5-24c4-a921-7dcd-1faea993e6a7.htm" />
-  <HelpKINode Title="SyncEnumerator(Of T).Reset method" Url="html/85bf8cff-0477-aebd-c83b-4f89373b1f27.htm" />
-  <HelpKINode Title="SyncEnumerator&lt;T&gt; class" Url="html/c9c7bafe-ada3-762d-014e-0f5d0ce6c06d.htm" />
-  <HelpKINode Title="SyncEnumerator&lt;T&gt; constructor" Url="html/2aa34b90-b5e2-53bf-d927-9d7cf603f85f.htm" />
-  <HelpKINode Title="SyncEnumerator&lt;T&gt; constructor" Url="html/484d5d91-c673-6a59-0597-e1f6f805a7f6.htm" />
-  <HelpKINode Title="SyncEnumerator&lt;T&gt; constructor" Url="html/6cc551df-b6f7-65ef-5a32-b91abd1da9c7.htm" />
-  <HelpKINode Title="SyncEnumerator&lt;T&gt;.Current property" Url="html/7e90c2e0-23c4-f664-491c-f372fb0d1afe.htm" />
-  <HelpKINode Title="SyncEnumerator&lt;T&gt;.Dispose method" Url="html/aa88d425-c09e-142c-07c5-f1b3d051128c.htm" />
-  <HelpKINode Title="SyncEnumerator&lt;T&gt;.GetEnumerator method" Url="html/69c03d1c-a2b5-8599-abab-b1aedec6049e.htm" />
-  <HelpKINode Title="SyncEnumerator&lt;T&gt;.MoveNext method" Url="html/9c3c28f5-24c4-a921-7dcd-1faea993e6a7.htm" />
-  <HelpKINode Title="SyncEnumerator&lt;T&gt;.Reset method" Url="html/85bf8cff-0477-aebd-c83b-4f89373b1f27.htm" />
-  <HelpKINode Title="SyncObject(Of T) class" Url="html/bacf62dc-1762-8bc6-eb3f-55b0eff23573.htm" />
-  <HelpKINode Title="SyncObject(Of T) constructor" Url="html/cae5f99f-3c76-3c67-90cc-4f8461e4e96d.htm" />
-  <HelpKINode Title="SyncObject(Of T) constructor" Url="html/f73d88e0-e4c9-9435-caec-a21bce248582.htm" />
-  <HelpKINode Title="SyncObject(Of T) constructor" Url="html/fb537a63-147f-b289-c5fa-f84ef6a3df02.htm" />
-  <HelpKINode Title="SyncObject(Of T).DoRead method" Url="html/59be5284-2c14-564e-b88d-7ee0b995ddb2.htm" />
-  <HelpKINode Title="SyncObject(Of T).DoRead method" Url="html/b78945ca-c6da-2807-8b68-fe57a37224ac.htm" />
-  <HelpKINode Title="SyncObject(Of T).DoRead(Of TR) method" Url="html/e20207a3-fea7-00d5-f371-f03e475a2862.htm" />
-  <HelpKINode Title="SyncObject(Of T).DoWrite method" Url="html/11f74282-bdd9-ab31-4502-5b21d420c369.htm" />
-  <HelpKINode Title="SyncObject(Of T).DoWrite method" Url="html/dcd11655-6a3d-3959-5412-f05205fe5cb7.htm" />
-  <HelpKINode Title="SyncObject(Of T).DoWrite(Of TR) method" Url="html/e2a5db8e-fd6d-7030-3ae7-516e6ef270d6.htm" />
-  <HelpKINode Title="SyncObject(Of T).Locker property" Url="html/e24aaf35-db4c-cdb7-5274-3b01c864aea9.htm" />
-  <HelpKINode Title="SyncObject(Of T).ReadLock method" Url="html/24d94df7-bfb1-1c00-f54c-8762d7b80834.htm" />
-  <HelpKINode Title="SyncObject(Of T).ReadLock method" Url="html/956d54ac-bc50-7b82-80b3-8269c6369252.htm" />
-  <HelpKINode Title="SyncObject(Of T).ReadLock method" Url="html/e573abfc-b19e-a960-0ca1-5e81e8702c3a.htm" />
-  <HelpKINode Title="SyncObject(Of T).Sync property" Url="html/6b995e4d-75d4-e30d-813b-fdb7dabafc46.htm" />
-  <HelpKINode Title="SyncObject(Of T).Unsync property" Url="html/5deb2cc4-bbcb-80c9-743c-611fbb4e2c14.htm" />
-  <HelpKINode Title="SyncObject(Of T).UnsyncField field" Url="html/559f8ca6-34ab-27d8-46dd-2e432f2b7762.htm" />
-  <HelpKINode Title="SyncObject(Of T).UpgradeableReadLock method" Url="html/267cf2e3-c69c-de28-54a8-1e3464c27d90.htm" />
-  <HelpKINode Title="SyncObject(Of T).UpgradeableReadLock method" Url="html/aac933c4-7738-1279-ef63-715f8185c1d3.htm" />
-  <HelpKINode Title="SyncObject(Of T).UpgradeableReadLock method" Url="html/aec1a5a6-6f67-1675-9f87-54ae7b923552.htm" />
-  <HelpKINode Title="SyncObject(Of T).WriteLock method" Url="html/17f45bc6-2dc0-87de-6fb1-a59b48367e14.htm" />
-  <HelpKINode Title="SyncObject(Of T).WriteLock method" Url="html/2fe1da40-5d19-0920-bd26-c7d4a3a6a5e8.htm" />
-  <HelpKINode Title="SyncObject(Of T).WriteLock method" Url="html/94fe5061-57c9-7f48-ca37-1db96d56967e.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt; class" Url="html/bacf62dc-1762-8bc6-eb3f-55b0eff23573.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt; constructor" Url="html/cae5f99f-3c76-3c67-90cc-4f8461e4e96d.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt; constructor" Url="html/f73d88e0-e4c9-9435-caec-a21bce248582.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt; constructor" Url="html/fb537a63-147f-b289-c5fa-f84ef6a3df02.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.DoRead method" Url="html/59be5284-2c14-564e-b88d-7ee0b995ddb2.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.DoRead method" Url="html/b78945ca-c6da-2807-8b68-fe57a37224ac.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.DoRead&lt;TR&gt; method" Url="html/e20207a3-fea7-00d5-f371-f03e475a2862.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.DoWrite method" Url="html/11f74282-bdd9-ab31-4502-5b21d420c369.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.DoWrite method" Url="html/dcd11655-6a3d-3959-5412-f05205fe5cb7.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.DoWrite&lt;TR&gt; method" Url="html/e2a5db8e-fd6d-7030-3ae7-516e6ef270d6.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.Locker property" Url="html/e24aaf35-db4c-cdb7-5274-3b01c864aea9.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.ReadLock method" Url="html/24d94df7-bfb1-1c00-f54c-8762d7b80834.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.ReadLock method" Url="html/956d54ac-bc50-7b82-80b3-8269c6369252.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.ReadLock method" Url="html/e573abfc-b19e-a960-0ca1-5e81e8702c3a.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.Sync property" Url="html/6b995e4d-75d4-e30d-813b-fdb7dabafc46.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.Unsync property" Url="html/5deb2cc4-bbcb-80c9-743c-611fbb4e2c14.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.UnsyncField field" Url="html/559f8ca6-34ab-27d8-46dd-2e432f2b7762.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.UpgradeableReadLock method" Url="html/267cf2e3-c69c-de28-54a8-1e3464c27d90.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.UpgradeableReadLock method" Url="html/aac933c4-7738-1279-ef63-715f8185c1d3.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.UpgradeableReadLock method" Url="html/aec1a5a6-6f67-1675-9f87-54ae7b923552.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.WriteLock method" Url="html/17f45bc6-2dc0-87de-6fb1-a59b48367e14.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.WriteLock method" Url="html/2fe1da40-5d19-0920-bd26-c7d4a3a6a5e8.htm" />
-  <HelpKINode Title="SyncObject&lt;T&gt;.WriteLock method" Url="html/94fe5061-57c9-7f48-ca37-1db96d56967e.htm" />
-  <HelpKINode Title="TryEnterReadLock method" Url="html/05fb0a5f-7683-4c18-d447-83a6599fa894.htm" />
-  <HelpKINode Title="TryEnterReadLock method" Url="html/6a14dc50-5942-8331-ba3c-2fb089e63b63.htm" />
-  <HelpKINode Title="TryEnterReadLock method" Url="html/fff7e0e1-0953-691e-c983-77849607fa48.htm" />
-  <HelpKINode Title="TryEnterUpgradeableReadLock method" Url="html/2532bb9b-c1bc-b78b-8880-50ef033524a6.htm" />
-  <HelpKINode Title="TryEnterUpgradeableReadLock method" Url="html/94475c7e-e1b8-8aad-8740-f9d1a72a9b13.htm" />
-  <HelpKINode Title="TryEnterUpgradeableReadLock method" Url="html/99c5fc82-de1f-e1d0-a004-6fa3aa83fac7.htm" />
-  <HelpKINode Title="TryEnterWriteLock method" Url="html/824cb832-87da-d30f-924a-90ffce12dcc6.htm" />
-  <HelpKINode Title="TryEnterWriteLock method" Url="html/e31e1581-5a02-7b2b-2e3f-a614a9a3ebe1.htm" />
-  <HelpKINode Title="TryEnterWriteLock method" Url="html/ec24e448-e462-31c0-bb54-ccb7cdc90dc1.htm" />
-  <HelpKINode Title="Unsync property" Url="html/5deb2cc4-bbcb-80c9-743c-611fbb4e2c14.htm" />
-  <HelpKINode Title="Unsync property" Url="html/b2fa685f-dec4-13b7-2d3b-74f851965415.htm" />
-  <HelpKINode Title="Unsync property" Url="html/f6c42995-e98f-1e38-fd34-4a70d6cc8a10.htm" />
-  <HelpKINode Title="UnsyncField field" Url="html/10631756-2433-8a3c-cf1a-a9b99ea65abe.htm" />
-  <HelpKINode Title="UnsyncField field" Url="html/559f8ca6-34ab-27d8-46dd-2e432f2b7762.htm" />
-  <HelpKINode Title="UpgradeableReadLock class" Url="html/7308e4f9-4478-dfd9-7f7f-fc02e737e022.htm" />
-  <HelpKINode Title="UpgradeableReadLock constructor" Url="html/76089927-e5bd-06c5-ab02-20213ddb5f5d.htm" />
-  <HelpKINode Title="UpgradeableReadLock constructor" Url="html/abad7a70-34ab-626e-856f-be439b15f35a.htm" />
-  <HelpKINode Title="UpgradeableReadLock constructor" Url="html/e9d09e03-2edd-2b75-e3dd-7eaf190a391b.htm" />
-  <HelpKINode Title="UpgradeableReadLock method" Url="html/267cf2e3-c69c-de28-54a8-1e3464c27d90.htm" />
-  <HelpKINode Title="UpgradeableReadLock method" Url="html/3d3415fd-24c0-ec9e-2098-78a7e147f13a.htm" />
-  <HelpKINode Title="UpgradeableReadLock method" Url="html/7abe01a0-151b-203b-70d3-2850bf988454.htm" />
-  <HelpKINode Title="UpgradeableReadLock method" Url="html/aac933c4-7738-1279-ef63-715f8185c1d3.htm" />
-  <HelpKINode Title="UpgradeableReadLock method" Url="html/aec1a5a6-6f67-1675-9f87-54ae7b923552.htm" />
-  <HelpKINode Title="UpgradeableReadLock method" Url="html/b85060f8-4da0-06c6-3798-5f48fdfd2bba.htm" />
-  <HelpKINode Title="UpgradeableReadLock method" Url="html/d9caca36-471b-da30-e6cd-e9193474f715.htm" />
-  <HelpKINode Title="UpgradeableReadLock method" Url="html/da407b06-de7e-ef8c-0ce8-c816ed5d2bc2.htm" />
-  <HelpKINode Title="UpgradeableReadLock method" Url="html/fab841a1-53f4-84f7-16d8-645a464e8feb.htm" />
-  <HelpKINode Title="UpgradeableReadLock.Dispose method" Url="html/5d4ededd-cd1f-db30-5b9b-47b43c8e2de4.htm" />
-  <HelpKINode Title="WriteLock class" Url="html/66f8d4ad-5c42-bccc-86d5-9e02fc66aacc.htm" />
-  <HelpKINode Title="WriteLock constructor" Url="html/08f3cafc-95e3-4983-8814-e456e173739b.htm" />
-  <HelpKINode Title="WriteLock constructor" Url="html/2f20103e-90e8-5e3e-1c39-635abfa66459.htm" />
-  <HelpKINode Title="WriteLock constructor" Url="html/cc88e7fa-45d5-f247-3098-c9f0548c62c4.htm" />
-  <HelpKINode Title="WriteLock method" Url="html/0ed52c79-b96a-30ac-a188-e20ab8eb23c0.htm" />
-  <HelpKINode Title="WriteLock method" Url="html/17f45bc6-2dc0-87de-6fb1-a59b48367e14.htm" />
-  <HelpKINode Title="WriteLock method" Url="html/2fe1da40-5d19-0920-bd26-c7d4a3a6a5e8.htm" />
-  <HelpKINode Title="WriteLock method" Url="html/409ca446-00cd-f051-98b7-8fa7d7e8d8e9.htm" />
-  <HelpKINode Title="WriteLock method" Url="html/41610279-021d-8fba-aa04-7f7d4cc1bd1c.htm" />
-  <HelpKINode Title="WriteLock method" Url="html/85f265f2-7027-8d88-3aa2-d5bc1b5dc218.htm" />
-  <HelpKINode Title="WriteLock method" Url="html/94fe5061-57c9-7f48-ca37-1db96d56967e.htm" />
-  <HelpKINode Title="WriteLock method" Url="html/a87f7b29-7d3a-375f-8e81-ae55c3d792d5.htm" />
-  <HelpKINode Title="WriteLock method" Url="html/cebb998d-9d55-2d84-7daf-ad312cdc9ed3.htm" />
-  <HelpKINode Title="WriteLock.Dispose method" Url="html/8eed42a8-6c9b-a93e-8d46-2ef33db18b03.htm" />
+  <HelpKINode Title="Current property" Url="html/45F202DA.htm" />
+  <HelpKINode Title="DisposableLock class" Url="html/DB675D53.htm" />
+  <HelpKINode Title="DisposableLock class" Url="html/E5E3AEC8.htm" />
+  <HelpKINode Title="DisposableLock class">
+    <HelpKINode Title="about DisposableLock class" Url="html/E5E3AEC8.htm" />
+    <HelpKINode Title="all members" Url="html/DB675D53.htm" />
+    <HelpKINode Title="constructor" Url="html/D5551A9A.htm" />
+    <HelpKINode Title="methods" Url="html/4D86626B.htm" />
+    <HelpKINode Title="properties" Url="html/D29CD879.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DisposableLock.DisposableLock constructor" Url="html/D5551A9A.htm" />
+  <HelpKINode Title="DisposableLock.Dispose method" Url="html/43B279E6.htm" />
+  <HelpKINode Title="DisposableLock.Locker property" Url="html/D2AB7307.htm" />
+  <HelpKINode Title="Dispose method" Url="html/2956D923.htm" />
+  <HelpKINode Title="Dispose method" Url="html/3FB5166F.htm" />
+  <HelpKINode Title="Dispose method" Url="html/43B279E6.htm" />
+  <HelpKINode Title="Dispose method" Url="html/99E6D188.htm" />
+  <HelpKINode Title="Dispose method" Url="html/C722D560.htm" />
+  <HelpKINode Title="DoRead method" Url="html/2351AB6E.htm" />
+  <HelpKINode Title="DoRead method" Url="html/3AE9E85C.htm" />
+  <HelpKINode Title="DoRead method" Url="html/7ABFF0D9.htm" />
+  <HelpKINode Title="DoWrite method" Url="html/14AFD609.htm" />
+  <HelpKINode Title="DoWrite method" Url="html/6793BD61.htm" />
+  <HelpKINode Title="DoWrite method" Url="html/DE2A2E41.htm" />
+  <HelpKINode Title="EnterReadLock method" Url="html/2B58A267.htm" />
+  <HelpKINode Title="EnterReadLock method" Url="html/5C7C593E.htm" />
+  <HelpKINode Title="EnterReadLock method" Url="html/F12D8057.htm" />
+  <HelpKINode Title="EnterUpgradeableReadLock method" Url="html/8327CFA0.htm" />
+  <HelpKINode Title="EnterUpgradeableReadLock method" Url="html/B8513997.htm" />
+  <HelpKINode Title="EnterUpgradeableReadLock method" Url="html/CE9E1E69.htm" />
+  <HelpKINode Title="EnterWriteLock method" Url="html/31B920E0.htm" />
+  <HelpKINode Title="EnterWriteLock method" Url="html/4A025572.htm" />
+  <HelpKINode Title="EnterWriteLock method" Url="html/BBEAA00D.htm" />
+  <HelpKINode Title="ExitReadLock method" Url="html/8C2B4EF9.htm" />
+  <HelpKINode Title="ExitReadLock method" Url="html/8CBC5BB2.htm" />
+  <HelpKINode Title="ExitReadLock method" Url="html/D5CD095C.htm" />
+  <HelpKINode Title="ExitUpgradeableReadLock method" Url="html/43F3779D.htm" />
+  <HelpKINode Title="ExitUpgradeableReadLock method" Url="html/73431AB9.htm" />
+  <HelpKINode Title="ExitUpgradeableReadLock method" Url="html/B98F34BC.htm" />
+  <HelpKINode Title="ExitWriteLock method" Url="html/2A7E77A6.htm" />
+  <HelpKINode Title="ExitWriteLock method" Url="html/431EB723.htm" />
+  <HelpKINode Title="ExitWriteLock method" Url="html/FCADA3A.htm" />
+  <HelpKINode Title="GetEnumerator method" Url="html/985820A9.htm" />
+  <HelpKINode Title="ILocker interface" Url="html/25DDE547.htm" />
+  <HelpKINode Title="ILocker interface" Url="html/D5715C6E.htm" />
+  <HelpKINode Title="ILocker interface">
+    <HelpKINode Title="about ILocker interface" Url="html/D5715C6E.htm" />
+    <HelpKINode Title="all members" Url="html/25DDE547.htm" />
+    <HelpKINode Title="methods" Url="html/C4B26B41.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ILocker.EnterReadLock method" Url="html/5C7C593E.htm" />
+  <HelpKINode Title="ILocker.EnterUpgradeableReadLock method" Url="html/B8513997.htm" />
+  <HelpKINode Title="ILocker.EnterWriteLock method" Url="html/4A025572.htm" />
+  <HelpKINode Title="ILocker.ExitReadLock method" Url="html/8C2B4EF9.htm" />
+  <HelpKINode Title="ILocker.ExitUpgradeableReadLock method" Url="html/B98F34BC.htm" />
+  <HelpKINode Title="ILocker.ExitWriteLock method" Url="html/2A7E77A6.htm" />
+  <HelpKINode Title="ILocker.TryEnterReadLock method" Url="html/FDDA25E5.htm" />
+  <HelpKINode Title="ILocker.TryEnterUpgradeableReadLock method" Url="html/ADEBA408.htm" />
+  <HelpKINode Title="ILocker.TryEnterWriteLock method" Url="html/9130E8BB.htm" />
+  <HelpKINode Title="ISyncObject(Of T) interface" Url="html/394EE735.htm" />
+  <HelpKINode Title="ISyncObject(Of T) interface" Url="html/7A5FA2E8.htm" />
+  <HelpKINode Title="ISyncObject(Of T) interface">
+    <HelpKINode Title="about ISyncObject(Of T) interface" Url="html/394EE735.htm" />
+    <HelpKINode Title="all members" Url="html/7A5FA2E8.htm" />
+    <HelpKINode Title="methods" Url="html/38229B42.htm" />
+    <HelpKINode Title="properties" Url="html/5A18BA3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISyncObject(Of T).DoRead method" Url="html/3AE9E85C.htm" />
+  <HelpKINode Title="ISyncObject(Of T).DoWrite method" Url="html/6793BD61.htm" />
+  <HelpKINode Title="ISyncObject(Of T).Locker property" Url="html/6B5C253E.htm" />
+  <HelpKINode Title="ISyncObject(Of T).ReadLock method" Url="html/D888047E.htm" />
+  <HelpKINode Title="ISyncObject(Of T).Sync property" Url="html/6ECC7136.htm" />
+  <HelpKINode Title="ISyncObject(Of T).Unsync property" Url="html/C98F721E.htm" />
+  <HelpKINode Title="ISyncObject(Of T).UpgradeableReadLock method" Url="html/F9848D84.htm" />
+  <HelpKINode Title="ISyncObject(Of T).WriteLock method" Url="html/20EC0070.htm" />
+  <HelpKINode Title="ISyncObject&lt;T&gt; interface" Url="html/394EE735.htm" />
+  <HelpKINode Title="ISyncObject&lt;T&gt; interface" Url="html/7A5FA2E8.htm" />
+  <HelpKINode Title="ISyncObject&lt;T&gt; interface">
+    <HelpKINode Title="about ISyncObject&lt;T&gt; interface" Url="html/394EE735.htm" />
+    <HelpKINode Title="all members" Url="html/7A5FA2E8.htm" />
+    <HelpKINode Title="methods" Url="html/38229B42.htm" />
+    <HelpKINode Title="properties" Url="html/5A18BA3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISyncObject&lt;T&gt;.DoRead method" Url="html/3AE9E85C.htm" />
+  <HelpKINode Title="ISyncObject&lt;T&gt;.DoWrite method" Url="html/6793BD61.htm" />
+  <HelpKINode Title="ISyncObject&lt;T&gt;.Locker property" Url="html/6B5C253E.htm" />
+  <HelpKINode Title="ISyncObject&lt;T&gt;.ReadLock method" Url="html/D888047E.htm" />
+  <HelpKINode Title="ISyncObject&lt;T&gt;.Sync property" Url="html/6ECC7136.htm" />
+  <HelpKINode Title="ISyncObject&lt;T&gt;.Unsync property" Url="html/C98F721E.htm" />
+  <HelpKINode Title="ISyncObject&lt;T&gt;.UpgradeableReadLock method" Url="html/F9848D84.htm" />
+  <HelpKINode Title="ISyncObject&lt;T&gt;.WriteLock method" Url="html/20EC0070.htm" />
+  <HelpKINode Title="Locker property" Url="html/3809D34D.htm" />
+  <HelpKINode Title="Locker property" Url="html/6B5C253E.htm" />
+  <HelpKINode Title="Locker property" Url="html/D2AB7307.htm" />
+  <HelpKINode Title="Locker property" Url="html/EE0B2006.htm" />
+  <HelpKINode Title="MonitorLocker class" Url="html/6B3F1A11.htm" />
+  <HelpKINode Title="MonitorLocker class" Url="html/CB8D754D.htm" />
+  <HelpKINode Title="MonitorLocker class">
+    <HelpKINode Title="about MonitorLocker class" Url="html/6B3F1A11.htm" />
+    <HelpKINode Title="all members" Url="html/CB8D754D.htm" />
+    <HelpKINode Title="constructor" Url="html/453AFF84.htm" />
+    <HelpKINode Title="methods" Url="html/8A6A8F17.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MonitorLocker.EnterReadLock method" Url="html/2B58A267.htm" />
+  <HelpKINode Title="MonitorLocker.EnterUpgradeableReadLock method" Url="html/8327CFA0.htm" />
+  <HelpKINode Title="MonitorLocker.EnterWriteLock method" Url="html/31B920E0.htm" />
+  <HelpKINode Title="MonitorLocker.ExitReadLock method" Url="html/D5CD095C.htm" />
+  <HelpKINode Title="MonitorLocker.ExitUpgradeableReadLock method" Url="html/43F3779D.htm" />
+  <HelpKINode Title="MonitorLocker.ExitWriteLock method" Url="html/431EB723.htm" />
+  <HelpKINode Title="MonitorLocker.MonitorLocker constructor" Url="html/453AFF84.htm" />
+  <HelpKINode Title="MonitorLocker.TryEnterReadLock method" Url="html/758FDD81.htm" />
+  <HelpKINode Title="MonitorLocker.TryEnterUpgradeableReadLock method" Url="html/F3C8986A.htm" />
+  <HelpKINode Title="MonitorLocker.TryEnterWriteLock method" Url="html/B92496C2.htm" />
+  <HelpKINode Title="MoveNext method" Url="html/B26202E8.htm" />
+  <HelpKINode Title="NiceThreads namespace" Url="html/108F5C9C.htm" />
+  <HelpKINode Title="NiceThreads.DisposableLock class" Url="html/DB675D53.htm" />
+  <HelpKINode Title="NiceThreads.DisposableLock class" Url="html/E5E3AEC8.htm" />
+  <HelpKINode Title="NiceThreads.ILocker interface" Url="html/25DDE547.htm" />
+  <HelpKINode Title="NiceThreads.ILocker interface" Url="html/D5715C6E.htm" />
+  <HelpKINode Title="NiceThreads.ISyncObject(Of T) interface" Url="html/394EE735.htm" />
+  <HelpKINode Title="NiceThreads.ISyncObject(Of T) interface" Url="html/7A5FA2E8.htm" />
+  <HelpKINode Title="NiceThreads.ISyncObject&lt;T&gt; interface" Url="html/394EE735.htm" />
+  <HelpKINode Title="NiceThreads.ISyncObject&lt;T&gt; interface" Url="html/7A5FA2E8.htm" />
+  <HelpKINode Title="NiceThreads.MonitorLocker class" Url="html/6B3F1A11.htm" />
+  <HelpKINode Title="NiceThreads.MonitorLocker class" Url="html/CB8D754D.htm" />
+  <HelpKINode Title="NiceThreads.ReaderWriterLockSlimLocker class" Url="html/AB0E57F9.htm" />
+  <HelpKINode Title="NiceThreads.ReaderWriterLockSlimLocker class" Url="html/B2D1B50B.htm" />
+  <HelpKINode Title="NiceThreads.ReadLock class" Url="html/5FDCF685.htm" />
+  <HelpKINode Title="NiceThreads.ReadLock class" Url="html/902286CA.htm" />
+  <HelpKINode Title="NiceThreads.ReadOnlySyncObject(Of T) class" Url="html/61F5BF2A.htm" />
+  <HelpKINode Title="NiceThreads.ReadOnlySyncObject(Of T) class" Url="html/82548555.htm" />
+  <HelpKINode Title="NiceThreads.ReadOnlySyncObject&lt;T&gt; class" Url="html/61F5BF2A.htm" />
+  <HelpKINode Title="NiceThreads.ReadOnlySyncObject&lt;T&gt; class" Url="html/82548555.htm" />
+  <HelpKINode Title="NiceThreads.SyncEnumerator(Of T) class" Url="html/3C74B322.htm" />
+  <HelpKINode Title="NiceThreads.SyncEnumerator(Of T) class" Url="html/A65495D7.htm" />
+  <HelpKINode Title="NiceThreads.SyncEnumerator&lt;T&gt; class" Url="html/3C74B322.htm" />
+  <HelpKINode Title="NiceThreads.SyncEnumerator&lt;T&gt; class" Url="html/A65495D7.htm" />
+  <HelpKINode Title="NiceThreads.SyncObject(Of T) class" Url="html/932629.htm" />
+  <HelpKINode Title="NiceThreads.SyncObject(Of T) class" Url="html/D2CCC2EC.htm" />
+  <HelpKINode Title="NiceThreads.SyncObject&lt;T&gt; class" Url="html/932629.htm" />
+  <HelpKINode Title="NiceThreads.SyncObject&lt;T&gt; class" Url="html/D2CCC2EC.htm" />
+  <HelpKINode Title="NiceThreads.UpgradeableReadLock class" Url="html/4438609C.htm" />
+  <HelpKINode Title="NiceThreads.UpgradeableReadLock class" Url="html/CDA8FFD9.htm" />
+  <HelpKINode Title="NiceThreads.WriteLock class" Url="html/64AEAAC5.htm" />
+  <HelpKINode Title="NiceThreads.WriteLock class" Url="html/C64441EC.htm" />
+  <HelpKINode Title="ReaderWriterLockSlimLocker class" Url="html/AB0E57F9.htm" />
+  <HelpKINode Title="ReaderWriterLockSlimLocker class" Url="html/B2D1B50B.htm" />
+  <HelpKINode Title="ReaderWriterLockSlimLocker class">
+    <HelpKINode Title="about ReaderWriterLockSlimLocker class" Url="html/AB0E57F9.htm" />
+    <HelpKINode Title="all members" Url="html/B2D1B50B.htm" />
+    <HelpKINode Title="constructor" Url="html/C73BDB55.htm" />
+    <HelpKINode Title="methods" Url="html/CC7AC7BC.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReaderWriterLockSlimLocker.EnterReadLock method" Url="html/F12D8057.htm" />
+  <HelpKINode Title="ReaderWriterLockSlimLocker.EnterUpgradeableReadLock method" Url="html/CE9E1E69.htm" />
+  <HelpKINode Title="ReaderWriterLockSlimLocker.EnterWriteLock method" Url="html/BBEAA00D.htm" />
+  <HelpKINode Title="ReaderWriterLockSlimLocker.ExitReadLock method" Url="html/8CBC5BB2.htm" />
+  <HelpKINode Title="ReaderWriterLockSlimLocker.ExitUpgradeableReadLock method" Url="html/73431AB9.htm" />
+  <HelpKINode Title="ReaderWriterLockSlimLocker.ExitWriteLock method" Url="html/FCADA3A.htm" />
+  <HelpKINode Title="ReaderWriterLockSlimLocker.ReaderWriterLockSlimLocker constructor" Url="html/C73BDB55.htm" />
+  <HelpKINode Title="ReaderWriterLockSlimLocker.TryEnterReadLock method" Url="html/24BF1AED.htm" />
+  <HelpKINode Title="ReaderWriterLockSlimLocker.TryEnterUpgradeableReadLock method" Url="html/41AB41E4.htm" />
+  <HelpKINode Title="ReaderWriterLockSlimLocker.TryEnterWriteLock method" Url="html/1645A95B.htm" />
+  <HelpKINode Title="ReadLock class" Url="html/5FDCF685.htm" />
+  <HelpKINode Title="ReadLock class" Url="html/902286CA.htm" />
+  <HelpKINode Title="ReadLock class">
+    <HelpKINode Title="about ReadLock class" Url="html/5FDCF685.htm" />
+    <HelpKINode Title="all members" Url="html/902286CA.htm" />
+    <HelpKINode Title="constructor" Url="html/6512F190.htm" />
+    <HelpKINode Title="methods" Url="html/225BA7E2.htm" />
+    <HelpKINode Title="properties" Url="html/914A7458.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReadLock method" Url="html/B80D29D8.htm" />
+  <HelpKINode Title="ReadLock method" Url="html/D888047E.htm" />
+  <HelpKINode Title="ReadLock method" Url="html/DDFAFD42.htm" />
+  <HelpKINode Title="ReadLock.Dispose method" Url="html/C722D560.htm" />
+  <HelpKINode Title="ReadLock.ReadLock constructor" Url="html/6512F190.htm" />
+  <HelpKINode Title="ReadOnlySyncObject(Of T) class" Url="html/61F5BF2A.htm" />
+  <HelpKINode Title="ReadOnlySyncObject(Of T) class" Url="html/82548555.htm" />
+  <HelpKINode Title="ReadOnlySyncObject(Of T) class">
+    <HelpKINode Title="about ReadOnlySyncObject(Of T) class" Url="html/82548555.htm" />
+    <HelpKINode Title="all members" Url="html/61F5BF2A.htm" />
+    <HelpKINode Title="constructor" Url="html/5B8F9118.htm" />
+    <HelpKINode Title="fields" Url="html/50137730.htm" />
+    <HelpKINode Title="methods" Url="html/B3635293.htm" />
+    <HelpKINode Title="properties" Url="html/4F49D764.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReadOnlySyncObject(Of T).DoRead method" Url="html/2351AB6E.htm" />
+  <HelpKINode Title="ReadOnlySyncObject(Of T).DoWrite method" Url="html/DE2A2E41.htm" />
+  <HelpKINode Title="ReadOnlySyncObject(Of T).Locker property" Url="html/3809D34D.htm" />
+  <HelpKINode Title="ReadOnlySyncObject(Of T).ReadLock method" Url="html/B80D29D8.htm" />
+  <HelpKINode Title="ReadOnlySyncObject(Of T).ReadOnlySyncObject constructor" Url="html/5B8F9118.htm" />
+  <HelpKINode Title="ReadOnlySyncObject(Of T).Sync property" Url="html/B6F577C0.htm" />
+  <HelpKINode Title="ReadOnlySyncObject(Of T).Unsync property" Url="html/986D72A1.htm" />
+  <HelpKINode Title="ReadOnlySyncObject(Of T).UnsyncField field" Url="html/C80CA059.htm" />
+  <HelpKINode Title="ReadOnlySyncObject(Of T).UpgradeableReadLock method" Url="html/DF0D825E.htm" />
+  <HelpKINode Title="ReadOnlySyncObject(Of T).WriteLock method" Url="html/584B2984.htm" />
+  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt; class" Url="html/61F5BF2A.htm" />
+  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt; class" Url="html/82548555.htm" />
+  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt; class">
+    <HelpKINode Title="about ReadOnlySyncObject&lt;T&gt; class" Url="html/82548555.htm" />
+    <HelpKINode Title="all members" Url="html/61F5BF2A.htm" />
+    <HelpKINode Title="constructor" Url="html/5B8F9118.htm" />
+    <HelpKINode Title="fields" Url="html/50137730.htm" />
+    <HelpKINode Title="methods" Url="html/B3635293.htm" />
+    <HelpKINode Title="properties" Url="html/4F49D764.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.DoRead method" Url="html/2351AB6E.htm" />
+  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.DoWrite method" Url="html/DE2A2E41.htm" />
+  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.Locker property" Url="html/3809D34D.htm" />
+  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.ReadLock method" Url="html/B80D29D8.htm" />
+  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.ReadOnlySyncObject constructor" Url="html/5B8F9118.htm" />
+  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.Sync property" Url="html/B6F577C0.htm" />
+  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.Unsync property" Url="html/986D72A1.htm" />
+  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.UnsyncField field" Url="html/C80CA059.htm" />
+  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.UpgradeableReadLock method" Url="html/DF0D825E.htm" />
+  <HelpKINode Title="ReadOnlySyncObject&lt;T&gt;.WriteLock method" Url="html/584B2984.htm" />
+  <HelpKINode Title="Reset method" Url="html/110D5EE4.htm" />
+  <HelpKINode Title="Sync property" Url="html/6ECC7136.htm" />
+  <HelpKINode Title="Sync property" Url="html/767377FA.htm" />
+  <HelpKINode Title="Sync property" Url="html/B6F577C0.htm" />
+  <HelpKINode Title="SyncEnumerator(Of T) class" Url="html/3C74B322.htm" />
+  <HelpKINode Title="SyncEnumerator(Of T) class" Url="html/A65495D7.htm" />
+  <HelpKINode Title="SyncEnumerator(Of T) class">
+    <HelpKINode Title="about SyncEnumerator(Of T) class" Url="html/3C74B322.htm" />
+    <HelpKINode Title="all members" Url="html/A65495D7.htm" />
+    <HelpKINode Title="constructor" Url="html/3853644E.htm" />
+    <HelpKINode Title="methods" Url="html/C2E5C939.htm" />
+    <HelpKINode Title="properties" Url="html/EEC168CD.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SyncEnumerator(Of T).Current property" Url="html/45F202DA.htm" />
+  <HelpKINode Title="SyncEnumerator(Of T).Dispose method" Url="html/99E6D188.htm" />
+  <HelpKINode Title="SyncEnumerator(Of T).GetEnumerator method" Url="html/985820A9.htm" />
+  <HelpKINode Title="SyncEnumerator(Of T).MoveNext method" Url="html/B26202E8.htm" />
+  <HelpKINode Title="SyncEnumerator(Of T).Reset method" Url="html/110D5EE4.htm" />
+  <HelpKINode Title="SyncEnumerator(Of T).SyncEnumerator constructor" Url="html/3853644E.htm" />
+  <HelpKINode Title="SyncEnumerator&lt;T&gt; class" Url="html/3C74B322.htm" />
+  <HelpKINode Title="SyncEnumerator&lt;T&gt; class" Url="html/A65495D7.htm" />
+  <HelpKINode Title="SyncEnumerator&lt;T&gt; class">
+    <HelpKINode Title="about SyncEnumerator&lt;T&gt; class" Url="html/3C74B322.htm" />
+    <HelpKINode Title="all members" Url="html/A65495D7.htm" />
+    <HelpKINode Title="constructor" Url="html/3853644E.htm" />
+    <HelpKINode Title="methods" Url="html/C2E5C939.htm" />
+    <HelpKINode Title="properties" Url="html/EEC168CD.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SyncEnumerator&lt;T&gt;.Current property" Url="html/45F202DA.htm" />
+  <HelpKINode Title="SyncEnumerator&lt;T&gt;.Dispose method" Url="html/99E6D188.htm" />
+  <HelpKINode Title="SyncEnumerator&lt;T&gt;.GetEnumerator method" Url="html/985820A9.htm" />
+  <HelpKINode Title="SyncEnumerator&lt;T&gt;.MoveNext method" Url="html/B26202E8.htm" />
+  <HelpKINode Title="SyncEnumerator&lt;T&gt;.Reset method" Url="html/110D5EE4.htm" />
+  <HelpKINode Title="SyncEnumerator&lt;T&gt;.SyncEnumerator constructor" Url="html/3853644E.htm" />
+  <HelpKINode Title="SyncObject(Of T) class" Url="html/932629.htm" />
+  <HelpKINode Title="SyncObject(Of T) class" Url="html/D2CCC2EC.htm" />
+  <HelpKINode Title="SyncObject(Of T) class">
+    <HelpKINode Title="about SyncObject(Of T) class" Url="html/932629.htm" />
+    <HelpKINode Title="all members" Url="html/D2CCC2EC.htm" />
+    <HelpKINode Title="constructor" Url="html/1CDF7B9.htm" />
+    <HelpKINode Title="fields" Url="html/37D23AD9.htm" />
+    <HelpKINode Title="methods" Url="html/A7240E2.htm" />
+    <HelpKINode Title="properties" Url="html/43D2FFBC.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SyncObject(Of T).DoRead method" Url="html/7ABFF0D9.htm" />
+  <HelpKINode Title="SyncObject(Of T).DoWrite method" Url="html/14AFD609.htm" />
+  <HelpKINode Title="SyncObject(Of T).Locker property" Url="html/EE0B2006.htm" />
+  <HelpKINode Title="SyncObject(Of T).ReadLock method" Url="html/DDFAFD42.htm" />
+  <HelpKINode Title="SyncObject(Of T).Sync property" Url="html/767377FA.htm" />
+  <HelpKINode Title="SyncObject(Of T).SyncObject constructor" Url="html/1CDF7B9.htm" />
+  <HelpKINode Title="SyncObject(Of T).Unsync property" Url="html/C1A8BF5C.htm" />
+  <HelpKINode Title="SyncObject(Of T).UnsyncField field" Url="html/F6187953.htm" />
+  <HelpKINode Title="SyncObject(Of T).UpgradeableReadLock method" Url="html/71993F2.htm" />
+  <HelpKINode Title="SyncObject(Of T).WriteLock method" Url="html/3F64E1EA.htm" />
+  <HelpKINode Title="SyncObject&lt;T&gt; class" Url="html/932629.htm" />
+  <HelpKINode Title="SyncObject&lt;T&gt; class" Url="html/D2CCC2EC.htm" />
+  <HelpKINode Title="SyncObject&lt;T&gt; class">
+    <HelpKINode Title="about SyncObject&lt;T&gt; class" Url="html/932629.htm" />
+    <HelpKINode Title="all members" Url="html/D2CCC2EC.htm" />
+    <HelpKINode Title="constructor" Url="html/1CDF7B9.htm" />
+    <HelpKINode Title="fields" Url="html/37D23AD9.htm" />
+    <HelpKINode Title="methods" Url="html/A7240E2.htm" />
+    <HelpKINode Title="properties" Url="html/43D2FFBC.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SyncObject&lt;T&gt;.DoRead method" Url="html/7ABFF0D9.htm" />
+  <HelpKINode Title="SyncObject&lt;T&gt;.DoWrite method" Url="html/14AFD609.htm" />
+  <HelpKINode Title="SyncObject&lt;T&gt;.Locker property" Url="html/EE0B2006.htm" />
+  <HelpKINode Title="SyncObject&lt;T&gt;.ReadLock method" Url="html/DDFAFD42.htm" />
+  <HelpKINode Title="SyncObject&lt;T&gt;.Sync property" Url="html/767377FA.htm" />
+  <HelpKINode Title="SyncObject&lt;T&gt;.SyncObject constructor" Url="html/1CDF7B9.htm" />
+  <HelpKINode Title="SyncObject&lt;T&gt;.Unsync property" Url="html/C1A8BF5C.htm" />
+  <HelpKINode Title="SyncObject&lt;T&gt;.UnsyncField field" Url="html/F6187953.htm" />
+  <HelpKINode Title="SyncObject&lt;T&gt;.UpgradeableReadLock method" Url="html/71993F2.htm" />
+  <HelpKINode Title="SyncObject&lt;T&gt;.WriteLock method" Url="html/3F64E1EA.htm" />
+  <HelpKINode Title="TryEnterReadLock method" Url="html/24BF1AED.htm" />
+  <HelpKINode Title="TryEnterReadLock method" Url="html/758FDD81.htm" />
+  <HelpKINode Title="TryEnterReadLock method" Url="html/FDDA25E5.htm" />
+  <HelpKINode Title="TryEnterUpgradeableReadLock method" Url="html/41AB41E4.htm" />
+  <HelpKINode Title="TryEnterUpgradeableReadLock method" Url="html/ADEBA408.htm" />
+  <HelpKINode Title="TryEnterUpgradeableReadLock method" Url="html/F3C8986A.htm" />
+  <HelpKINode Title="TryEnterWriteLock method" Url="html/1645A95B.htm" />
+  <HelpKINode Title="TryEnterWriteLock method" Url="html/9130E8BB.htm" />
+  <HelpKINode Title="TryEnterWriteLock method" Url="html/B92496C2.htm" />
+  <HelpKINode Title="Unsync property" Url="html/986D72A1.htm" />
+  <HelpKINode Title="Unsync property" Url="html/C1A8BF5C.htm" />
+  <HelpKINode Title="Unsync property" Url="html/C98F721E.htm" />
+  <HelpKINode Title="UnsyncField field" Url="html/C80CA059.htm" />
+  <HelpKINode Title="UnsyncField field" Url="html/F6187953.htm" />
+  <HelpKINode Title="UpgradeableReadLock class" Url="html/4438609C.htm" />
+  <HelpKINode Title="UpgradeableReadLock class" Url="html/CDA8FFD9.htm" />
+  <HelpKINode Title="UpgradeableReadLock class">
+    <HelpKINode Title="about UpgradeableReadLock class" Url="html/CDA8FFD9.htm" />
+    <HelpKINode Title="all members" Url="html/4438609C.htm" />
+    <HelpKINode Title="constructor" Url="html/9FE9266C.htm" />
+    <HelpKINode Title="methods" Url="html/B5393D2F.htm" />
+    <HelpKINode Title="properties" Url="html/34DB261E.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UpgradeableReadLock method" Url="html/71993F2.htm" />
+  <HelpKINode Title="UpgradeableReadLock method" Url="html/DF0D825E.htm" />
+  <HelpKINode Title="UpgradeableReadLock method" Url="html/F9848D84.htm" />
+  <HelpKINode Title="UpgradeableReadLock.Dispose method" Url="html/2956D923.htm" />
+  <HelpKINode Title="UpgradeableReadLock.UpgradeableReadLock constructor" Url="html/9FE9266C.htm" />
+  <HelpKINode Title="WriteLock class" Url="html/64AEAAC5.htm" />
+  <HelpKINode Title="WriteLock class" Url="html/C64441EC.htm" />
+  <HelpKINode Title="WriteLock class">
+    <HelpKINode Title="about WriteLock class" Url="html/64AEAAC5.htm" />
+    <HelpKINode Title="all members" Url="html/C64441EC.htm" />
+    <HelpKINode Title="constructor" Url="html/9057C5B5.htm" />
+    <HelpKINode Title="methods" Url="html/7CAAF705.htm" />
+    <HelpKINode Title="properties" Url="html/516EB1C2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WriteLock method" Url="html/20EC0070.htm" />
+  <HelpKINode Title="WriteLock method" Url="html/3F64E1EA.htm" />
+  <HelpKINode Title="WriteLock method" Url="html/584B2984.htm" />
+  <HelpKINode Title="WriteLock.Dispose method" Url="html/3FB5166F.htm" />
+  <HelpKINode Title="WriteLock.WriteLock constructor" Url="html/9057C5B5.htm" />
 </HelpKI>
