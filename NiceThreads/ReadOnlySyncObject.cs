@@ -32,64 +32,84 @@ namespace NiceThreads
     {
         private readonly ILocker _locker;
 
-        public ILocker Locker
-        {
-            get { return _locker; }
-        }
-
-        public readonly T UnsyncField;    //Expose this directly so it can be used anywhere the variable is expected (such as in ref or out parameters)
-
-        public T Unsync
-        {
-            get { return UnsyncField; }
-        }
-
-        public T Sync
-        {
-            get { using (ReadLock()) { return UnsyncField; } }
-        }
-
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ReadOnlySyncObject&lt;T&gt;"/> class.
+        /// </summary>
+        /// <param name="value">The object to wrap.</param>
         public ReadOnlySyncObject(T value)
             : this(value, Globals.GetDefaultLocker())
         {
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ReadOnlySyncObject&lt;T&gt;"/> class.
+        /// </summary>
+        /// <param name="value">The object to wrap.</param>
+        /// <param name="locker">The locker to use.</param>
         public ReadOnlySyncObject(T value, ILocker locker)
         {
             UnsyncField = value;
             _locker = locker;
         }
 
+        /// <inheritdoc />
+        public ILocker Locker
+        {
+            get { return _locker; }
+        }
+
+        /// <inheritdoc />
+        public readonly T UnsyncField;    //Expose this directly so it can be used anywhere the variable is expected (such as in ref or out parameters)
+
+        /// <inheritdoc />
+        public T Unsync
+        {
+            get { return UnsyncField; }
+        }
+
+        /// <inheritdoc />
+        public T Sync
+        {
+            get { using (ReadLock()) { return UnsyncField; } }
+        }
+
+        /// <inheritdoc />
         public IDisposable ReadLock()
         {
             return new ReadLock(_locker);
         }
 
+        /// <inheritdoc />
         public IDisposable UpgradeableReadLock()
         {
             return new UpgradeableReadLock(_locker);
         }
 
+        /// <inheritdoc />
         public IDisposable WriteLock()
         {
             return new WriteLock(_locker);
         }
 
+        /// <inheritdoc />
         public IDisposable ReadLock(TimeSpan timeout)
         {
             return new ReadLock(_locker, timeout);
         }
 
+        /// <inheritdoc />
         public IDisposable UpgradeableReadLock(TimeSpan timeout)
         {
             return new UpgradeableReadLock(_locker, timeout);
         }
 
+        /// <inheritdoc />
         public IDisposable WriteLock(TimeSpan timeout)
         {
             return new WriteLock(_locker, timeout);
         }
-        
+
+        /// <inheritdoc />
         public void DoRead(Action<T> action)
         {
             using(ReadLock())
@@ -98,6 +118,7 @@ namespace NiceThreads
             }
         }
 
+        /// <inheritdoc />
         public void DoWrite(Action<T> action)
         {
             using(WriteLock())
@@ -106,6 +127,7 @@ namespace NiceThreads
             }
         }
 
+        /// <inheritdoc />
         public TR DoRead<TR>(Func<T, TR> func)
         {
             using(ReadLock())
@@ -114,6 +136,7 @@ namespace NiceThreads
             }
         }
 
+        /// <inheritdoc />
         public TR DoWrite<TR>(Func<T, TR> func)
         {
             using(WriteLock())

@@ -23,8 +23,16 @@ using System.Threading;
 
 namespace NiceThreads
 {
+    /// <summary>
+    /// A disposable locking object for read locks.
+    /// </summary>
     public class ReadLock : DisposableLock
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ReadLock"/> class.
+        /// </summary>
+        /// <param name="locker">The locker.</param>
+        /// <param name="timeout">The timeout.</param>
         public ReadLock(ILocker locker, TimeSpan timeout) : base(locker)
         {
             if(!Locker.TryEnterReadLock(timeout))
@@ -33,8 +41,13 @@ namespace NiceThreads
             }
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ReadLock"/> class.
+        /// </summary>
+        /// <param name="locker">The locker.</param>
         public ReadLock(ILocker locker) : this(locker, Globals.Timeout) { }
 
+        /// <inheritdoc />
         public override void Dispose()
         {
             Locker.ExitReadLock();

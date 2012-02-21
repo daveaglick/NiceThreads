@@ -23,8 +23,16 @@ using System.Threading;
 
 namespace NiceThreads
 {
+    /// <summary>
+    /// A disposable locking object for write locks.
+    /// </summary>
     public class WriteLock : DisposableLock
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="WriteLock"/> class.
+        /// </summary>
+        /// <param name="locker">The locker.</param>
+        /// <param name="timeout">The timeout.</param>
         public WriteLock(ILocker locker, TimeSpan timeout) : base(locker)
         {
             if(!Locker.TryEnterWriteLock(timeout))
@@ -33,8 +41,13 @@ namespace NiceThreads
             }
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="WriteLock"/> class.
+        /// </summary>
+        /// <param name="locker">The locker.</param>
         public WriteLock(ILocker locker) : this(locker, Globals.Timeout) { }
 
+        /// <inheritdoc />
         public override void Dispose()
         {
             Locker.ExitWriteLock();

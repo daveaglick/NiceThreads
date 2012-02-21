@@ -34,12 +34,24 @@ namespace NiceThreads
         private readonly IEnumerator<T> _enumerator;
         private readonly ILocker _locker;
 
-        // locked => indicates if the LockSlim has already been locked (MUST be a read lock if so), if not, this will get a read lock
+        /// <summary>
+        /// Initializes a new instance of the <see cref="SyncEnumerator&lt;T&gt;"/> class.
+        /// </summary>
+        /// <param name="enumerable">The enumerable to protect.</param>
+        /// <param name="locker">The locker to use.</param>
+        /// <param name="locked">True indicates if the locker has already been locked (must be a read lock if so). If false, a read lock will be obtained.</param>
         public SyncEnumerator(IEnumerable<T> enumerable, ILocker locker, bool locked = false)
             : this(enumerable, locker, Globals.Timeout, locked)
         {
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="SyncEnumerator&lt;T&gt;"/> class.
+        /// </summary>
+        /// <param name="enumerable">The enumerable to protect.</param>
+        /// <param name="locker">The locker to use.</param>
+        /// <param name="timeout">The timeout - if a lock can't be obtained a TimeoutException will be thrown.</param>
+        /// <param name="locked">True indicates if the locker has already been locked (must be a read lock if so). If false, a read lock will be obtained.</param>
         public SyncEnumerator(IEnumerable<T> enumerable, ILocker locker, TimeSpan timeout, bool locked = false)
         {
             _locker = locker;
@@ -53,36 +65,43 @@ namespace NiceThreads
             _enumerator = enumerable.GetEnumerator();
         }
 
+        /// <inheritdoc />
         public void Dispose()
         {
             _locker.ExitReadLock();
         }
 
+        /// <inheritdoc />
         public bool MoveNext()
         {
             return _enumerator.MoveNext();
         }
 
+        /// <inheritdoc />
         public void Reset()
         {
             _enumerator.Reset();
         }
 
+        /// <inheritdoc />
         public T Current
         {
             get { return _enumerator.Current; }
         }
 
+        /// <inheritdoc />
         object IEnumerator.Current
         {
             get { return Current; }
         }
 
+        /// <inheritdoc />
         public IEnumerator<T> GetEnumerator()
         {
             return this;
         }
 
+        /// <inheritdoc />
         IEnumerator IEnumerable.GetEnumerator()
         {
             return this;

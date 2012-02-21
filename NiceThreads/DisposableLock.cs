@@ -30,6 +30,10 @@ namespace NiceThreads
     {
         private readonly ILocker _locker;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="DisposableLock"/> class.
+        /// </summary>
+        /// <param name="locker">The locker to use.</param>
         protected DisposableLock(ILocker locker)
         {
             _locker = locker;

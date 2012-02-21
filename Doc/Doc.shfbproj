@@ -28,7 +28,7 @@
     <SyntaxFilters>Standard</SyntaxFilters>
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <RootNamespaceContainer>False</RootNamespaceContainer>
-    <PresentationStyle>Prototype</PresentationStyle>
+    <PresentationStyle>vs2005</PresentationStyle>
     <Preliminary>False</Preliminary>
     <NamingMethod>Guid</NamingMethod>
     <HelpTitle>NiceThreads</HelpTitle>
@@ -60,4 +60,7 @@
   </PropertyGroup>
   <!-- Import the SHFB build targets -->
   <Import Project="$(SHFBROOT)\SandcastleHelpFileBuilder.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>rename "$(ProjectDir)Api\Index.html" "index.html"</PostBuildEvent>
+  </PropertyGroup>
 </Project>

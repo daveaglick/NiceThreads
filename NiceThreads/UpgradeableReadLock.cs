@@ -22,8 +22,16 @@ using System.Text;
 using System.Threading;
 namespace NiceThreads
 {
+    /// <summary>
+    /// A disposable locking object for upgradeable read locks.
+    /// </summary>
     public class UpgradeableReadLock : DisposableLock
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="UpgradeableReadLock"/> class.
+        /// </summary>
+        /// <param name="locker">The locker.</param>
+        /// <param name="timeout">The timeout.</param>
         public UpgradeableReadLock(ILocker locker, TimeSpan timeout) : base(locker)
         {
             if(!Locker.TryEnterUpgradeableReadLock(timeout))
@@ -32,8 +40,13 @@ namespace NiceThreads
             }
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="UpgradeableReadLock"/> class.
+        /// </summary>
+        /// <param name="locker">The locker.</param>
         public UpgradeableReadLock(ILocker locker) : this(locker, Globals.Timeout) { }
 
+        /// <inheritdoc />
         public override void Dispose()
         {
             Locker.ExitUpgradeableReadLock();

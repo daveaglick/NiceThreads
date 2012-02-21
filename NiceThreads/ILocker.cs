@@ -30,14 +30,55 @@ namespace NiceThreads
     /// </summary>
     public interface ILocker
     {
+        /// <summary>
+        /// Enters a read lock.
+        /// </summary>
         void EnterReadLock();
+
+        /// <summary>
+        /// Enters a write lock.
+        /// </summary>
         void EnterWriteLock();
+
+        /// <summary>
+        /// Enters an upgradeable read lock.
+        /// </summary>
         void EnterUpgradeableReadLock();
+
+        /// <summary>
+        /// Tries to enter a read lock.
+        /// </summary>
+        /// <param name="timeout">The timeout.</param>
+        /// <returns>True if the lock was succesfully entered before the timeout.</returns>
         bool TryEnterReadLock(TimeSpan timeout);
+
+        /// <summary>
+        /// Tries to enter a write lock.
+        /// </summary>
+        /// <param name="timeout">The timeout.</param>
+        /// <returns>True if the lock was succesfully entered before the timeout.</returns>
         bool TryEnterWriteLock(TimeSpan timeout);
+
+        /// <summary>
+        /// Tries to enter an upgradeable read lock.
+        /// </summary>
+        /// <param name="timeout">The timeout.</param>
+        /// <returns>True if the lock was succesfully entered before the timeout.</returns>
         bool TryEnterUpgradeableReadLock(TimeSpan timeout);
+
+        /// <summary>
+        /// Exits a read lock.
+        /// </summary>
         void ExitReadLock();
+
+        /// <summary>
+        /// Exits a write lock.
+        /// </summary>
         void ExitWriteLock();
+
+        /// <summary>
+        /// Exits an upgradeable read lock.
+        /// </summary>
         void ExitUpgradeableReadLock();
     }
 }

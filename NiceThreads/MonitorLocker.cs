@@ -25,49 +25,59 @@ namespace NiceThreads
 {
     /// <summary>
     /// Provides an ILocker implementation for the Monitor class.
+    /// Uses the static Monitor methods with this instance as the object.
     /// </summary>
     public class MonitorLocker : ILocker
     {
+        /// <inheritdoc />
         public void EnterReadLock()
         {
             Monitor.Enter(this);
         }
 
+        /// <inheritdoc />
         public void EnterWriteLock()
         {
             Monitor.Enter(this);
         }
 
+        /// <inheritdoc />
         public void EnterUpgradeableReadLock()
         {
             Monitor.Enter(this);
         }
 
+        /// <inheritdoc />
         public bool TryEnterReadLock(TimeSpan timeout)
         {
             return Monitor.TryEnter(this, timeout);
         }
 
+        /// <inheritdoc />
         public bool TryEnterWriteLock(TimeSpan timeout)
         {
             return Monitor.TryEnter(this, timeout);
         }
 
+        /// <inheritdoc />
         public bool TryEnterUpgradeableReadLock(TimeSpan timeout)
         {
             return Monitor.TryEnter(this, timeout);
         }
 
+        /// <inheritdoc />
         public void ExitReadLock()
         {
             Monitor.Exit(this);
         }
 
+        /// <inheritdoc />
         public void ExitWriteLock()
         {
             Monitor.Exit(this);
         }
 
+        /// <inheritdoc />
         public void ExitUpgradeableReadLock()
         {
             Monitor.Exit(this);
