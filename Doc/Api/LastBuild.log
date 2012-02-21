@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.3.0" projectFile="C:\Code\NiceThreads\Doc\Doc.shfbproj" started="2/21/2012 12:58:26 PM">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.3.0" projectFile="C:\Code\NiceThreads\Doc\Doc.shfbproj" started="2/21/2012 1:43:34 PM">
 <buildStep step="Initializing">
 </buildStep>
 <buildStep step="FindingTools">
@@ -27,11 +27,11 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0300
+    Last step completed in 00:00:00.0690
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -44,18 +44,18 @@ Generating reflection information...
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
   reflection.all -&gt; reflection.org
-    Last step completed in 00:00:02.1782
+    Last step completed in 00:00:02.1992
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
     0 attribute nodes removed
     2 explicit interface implementations removed
     2 local and base class EII elements removed
-    Last step completed in 00:00:00.0340
+    Last step completed in 00:00:00.0390
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -82,7 +82,7 @@ SHFB: Warning GID0004: No comments found for member &#39;P:NiceThreads.ReadOnlyS
 SHFB: Warning GID0004: No comments found for member &#39;P:NiceThreads.ReadOnlySyncObject`1.Sync&#39;
 
 Documentation merged successfully
-    Last step completed in 00:00:03.4213
+    Last step completed in 00:00:03.3433
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -90,14 +90,14 @@ Transforming reflection output...
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
-  reflection.org -&gt; C:\Users\dglick\AppData\Local\Temp\tmpC7A8.tmp
+  reflection.org -&gt; C:\Users\dglick\AppData\Local\Temp\tmp1CAB.tmp
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
-  C:\Users\dglick\AppData\Local\Temp\tmpC7A8.tmp -&gt; reflection.xml
+  C:\Users\dglick\AppData\Local\Temp\tmp1CAB.tmp -&gt; reflection.xml
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
   reflection.xml -&gt; manifest.xml
-    Last step completed in 00:00:01.6382
+    Last step completed in 00:00:01.6472
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
@@ -117,7 +117,7 @@ Modifying help topic filenames in reflection information file
     Unique name C1FC7EC generated for M:NiceThreads.SyncObject`1.WriteLock(System.TimeSpan)
     Unique name 8252215E generated for M:NiceThreads.UpgradeableReadLock.#ctor(NiceThreads.ILocker,System.TimeSpan)
     Unique name 5A9DA9FC generated for M:NiceThreads.WriteLock.#ctor(NiceThreads.ILocker,System.TimeSpan)
-    Last step completed in 00:00:00.0300
+    Last step completed in 00:00:00.0270
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -228,12 +228,12 @@ C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\script_manifold.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\SplitScreen.js -&gt; C:\Code\NiceThreads\Doc\Api\Working\Output\Website\scripts\SplitScreen.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Presentation.css -&gt; C:\Code\NiceThreads\Doc\Api\Working\Output\Website\styles\Presentation.css
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Whidbey\presentation.css -&gt; C:\Code\NiceThreads\Doc\Api\Working\Output\Website\styles\Whidbey\presentation.css
-    Last step completed in 00:00:00.3980
+    Last step completed in 00:00:00.4880
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -247,17 +247,17 @@ Generating intermediate table of contents file...
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
   reflection.xml -&gt; toc.xml
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.7191
+    Last step completed in 00:00:00.5671
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0160
+    Last step completed in 00:00:00.0630
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Code\NiceThreads\Doc\Api\Working\sandcastle.config
-    Last step completed in 00:00:00.5041
+    Last step completed in 00:00:00.3180
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -1559,13 +1559,13 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:NiceThreads.WriteLock.#ctor(NiceThreads.ILocker,System.TimeSpan)
   Info: BuildAssembler: Building topic M:NiceThreads.WriteLock.Dispose
   Info: Processed 160 topics
-    Last step completed in 00:01:03.1833
+    Last step completed in 00:00:53.9154
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -1581,16 +1581,16 @@ Processed 160 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Code\NiceThreads\Doc\Api\Working\WebKI.xml
 Saving website table of contents to C:\Code\NiceThreads\Doc\Api\Working\WebTOC.xml
-    Last step completed in 00:00:00.6771
+    Last step completed in 00:00:00.6591
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:01.2121
+    Last step completed in 00:00:01.3021
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -1884,15 +1884,15 @@ C:\Code\NiceThreads\Doc\Api\Working\Output\Website\scripts\script_manifold.js -&
 C:\Code\NiceThreads\Doc\Api\Working\Output\Website\scripts\SplitScreen.js -&gt; C:\Code\NiceThreads\Doc\Api\scripts\SplitScreen.js
 C:\Code\NiceThreads\Doc\Api\Working\Output\Website\styles\Presentation.css -&gt; C:\Code\NiceThreads\Doc\Api\styles\Presentation.css
 C:\Code\NiceThreads\Doc\Api\Working\Output\Website\styles\Whidbey\presentation.css -&gt; C:\Code\NiceThreads\Doc\Api\styles\Whidbey\presentation.css
-    Last step completed in 00:00:02.7673
+    Last step completed in 00:00:02.4982
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.1510
+    Last step completed in 00:00:00.1620
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 02/21/2012 12:59 PM.  Total time: 00:01:17.3127
+Build completed successfully at 02/21/2012 01:44 PM.  Total time: 00:01:07.6458
 
 </buildStep>
 </shfbBuild>

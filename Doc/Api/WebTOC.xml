@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="2c4da1f8-2158-4d7c-bd78-b92c3dc68afc" Title="NiceThreads Namespace" Url="html/108F5C9C.htm">
-    <HelpTOCNode Id="544bf142-2666-4790-94ee-0c6754fae666" Title="DisposableLock Class" Url="html/E5E3AEC8.htm">
+  <HelpTOCNode Id="c0578635-dd4e-4734-b7f3-afe6dbed270f" Title="NiceThreads Namespace" Url="html/108F5C9C.htm">
+    <HelpTOCNode Id="20a855ef-9e11-42db-8829-f0ba88e7a89d" Title="DisposableLock Class" Url="html/E5E3AEC8.htm">
       <HelpTOCNode Title="DisposableLock Members" Url="html/DB675D53.htm" />
       <HelpTOCNode Title="DisposableLock Constructor " Url="html/D5551A9A.htm" />
-      <HelpTOCNode Id="a346aa4d-ba0a-4f97-849d-598987de754a" Title="DisposableLock Methods" Url="html/4D86626B.htm">
+      <HelpTOCNode Id="753a9206-901e-4390-989c-e6e3f2508ff4" Title="DisposableLock Methods" Url="html/4D86626B.htm">
         <HelpTOCNode Title="Dispose Method " Url="html/43B279E6.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="64db8e58-a25d-4b7a-b59e-5c4d2ace1dbb" Title="DisposableLock Properties" Url="html/D29CD879.htm">
+      <HelpTOCNode Id="0e3d3279-7dc0-44ff-9346-7439631e129e" Title="DisposableLock Properties" Url="html/D29CD879.htm">
         <HelpTOCNode Title="Locker Property " Url="html/D2AB7307.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="dc64c5bf-5ab6-4a62-ad86-d7058d875d74" Title="ILocker Interface" Url="html/D5715C6E.htm">
+    <HelpTOCNode Id="3d3f66cb-a2dc-445b-bf7b-85e273561eba" Title="ILocker Interface" Url="html/D5715C6E.htm">
       <HelpTOCNode Title="ILocker Members" Url="html/25DDE547.htm" />
-      <HelpTOCNode Id="c92e1686-6a2f-4871-b496-0c7d6860586f" Title="ILocker Methods" Url="html/C4B26B41.htm">
+      <HelpTOCNode Id="97ee877d-2a66-4981-b4df-5e6613152feb" Title="ILocker Methods" Url="html/C4B26B41.htm">
         <HelpTOCNode Title="EnterReadLock Method " Url="html/5C7C593E.htm" />
         <HelpTOCNode Title="EnterUpgradeableReadLock Method " Url="html/B8513997.htm" />
         <HelpTOCNode Title="EnterWriteLock Method " Url="html/4A025572.htm" />
@@ -26,40 +26,40 @@
         <HelpTOCNode Title="TryEnterWriteLock Method " Url="html/9130E8BB.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="ab61965a-4e4e-4c05-9983-078952fdf10f" Title="ISyncObject(T) Interface" Url="html/394EE735.htm">
+    <HelpTOCNode Id="dab2198b-26bc-4dd9-af34-037bccf3aa00" Title="ISyncObject(T) Interface" Url="html/394EE735.htm">
       <HelpTOCNode Title="ISyncObject(T) Members" Url="html/7A5FA2E8.htm" />
-      <HelpTOCNode Id="28e9ad0d-e4f7-4841-9aea-d6bd4af7f36d" Title="ISyncObject(T) Methods" Url="html/38229B42.htm">
-        <HelpTOCNode Id="147f8637-0312-43a3-9016-09506f657d4c" Title="DoRead Method " Url="html/3AE9E85C.htm">
+      <HelpTOCNode Id="7272afb8-ac2a-46dc-91dd-2820facd9d70" Title="ISyncObject(T) Methods" Url="html/38229B42.htm">
+        <HelpTOCNode Id="bdfb198f-e4f2-4830-9b1d-d0fa301f3485" Title="DoRead Method " Url="html/3AE9E85C.htm">
           <HelpTOCNode Title="DoRead Method (Action(T))" Url="html/34916E21.htm" />
           <HelpTOCNode Title="DoRead(TR) Method (Func(T, TR))" Url="html/F0934CFF.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="06f4bb36-d2ec-4f8a-a21a-2bb83dcf629d" Title="DoWrite Method " Url="html/6793BD61.htm">
+        <HelpTOCNode Id="b3b4f4c6-d455-46be-bf24-d95332ed04f9" Title="DoWrite Method " Url="html/6793BD61.htm">
           <HelpTOCNode Title="DoWrite Method (Action(T))" Url="html/36714C6B.htm" />
           <HelpTOCNode Title="DoWrite(TR) Method (Func(T, TR))" Url="html/DBE6AA9E.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="c76cf44c-c985-499d-9e8f-012a3d3fac4d" Title="ReadLock Method " Url="html/D888047E.htm">
+        <HelpTOCNode Id="05a59954-b3c0-4a93-945d-7713753b59f6" Title="ReadLock Method " Url="html/D888047E.htm">
           <HelpTOCNode Title="ReadLock Method " Url="html/3228624.htm" />
           <HelpTOCNode Title="ReadLock Method (TimeSpan)" Url="html/3BB5FB40.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="a2abed3f-6a7e-4ca5-b707-64dec0988855" Title="UpgradeableReadLock Method " Url="html/F9848D84.htm">
+        <HelpTOCNode Id="976bad99-a347-4826-9613-36cca5ead543" Title="UpgradeableReadLock Method " Url="html/F9848D84.htm">
           <HelpTOCNode Title="UpgradeableReadLock Method " Url="html/147ADB60.htm" />
           <HelpTOCNode Title="UpgradeableReadLock Method (TimeSpan)" Url="html/24F1E0DB.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="39dfc825-c2bb-4577-ac2d-866194b43949" Title="WriteLock Method " Url="html/20EC0070.htm">
+        <HelpTOCNode Id="16418574-e5a1-4279-9d9d-f26e7e61a7a5" Title="WriteLock Method " Url="html/20EC0070.htm">
           <HelpTOCNode Title="WriteLock Method " Url="html/D6717826.htm" />
           <HelpTOCNode Title="WriteLock Method (TimeSpan)" Url="html/6DBC3A45.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="9e19e475-3be6-4d77-95ef-1d2108738b12" Title="ISyncObject(T) Properties" Url="html/5A18BA3.htm">
+      <HelpTOCNode Id="65a5c65a-fe4f-4d12-8fbd-48f7180d508f" Title="ISyncObject(T) Properties" Url="html/5A18BA3.htm">
         <HelpTOCNode Title="Locker Property " Url="html/6B5C253E.htm" />
         <HelpTOCNode Title="Sync Property " Url="html/6ECC7136.htm" />
         <HelpTOCNode Title="Unsync Property " Url="html/C98F721E.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="f8b4d74f-c863-4a9b-a024-c2133a20385b" Title="MonitorLocker Class" Url="html/6B3F1A11.htm">
+    <HelpTOCNode Id="75de8fed-66d2-4d8d-94ca-31a1165b5f87" Title="MonitorLocker Class" Url="html/6B3F1A11.htm">
       <HelpTOCNode Title="MonitorLocker Members" Url="html/CB8D754D.htm" />
       <HelpTOCNode Title="MonitorLocker Constructor " Url="html/453AFF84.htm" />
-      <HelpTOCNode Id="69c3e33d-b608-4183-bbfb-79fcaf3b3daf" Title="MonitorLocker Methods" Url="html/8A6A8F17.htm">
+      <HelpTOCNode Id="b57a6429-c8b3-40b4-8534-aadee0b4cb23" Title="MonitorLocker Methods" Url="html/8A6A8F17.htm">
         <HelpTOCNode Title="EnterReadLock Method " Url="html/2B58A267.htm" />
         <HelpTOCNode Title="EnterUpgradeableReadLock Method " Url="html/8327CFA0.htm" />
         <HelpTOCNode Title="EnterWriteLock Method " Url="html/31B920E0.htm" />
@@ -71,13 +71,13 @@
         <HelpTOCNode Title="TryEnterWriteLock Method " Url="html/B92496C2.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="464a3960-aacf-4bb4-9dfb-ef6587f64495" Title="ReaderWriterLockSlimLocker Class" Url="html/AB0E57F9.htm">
+    <HelpTOCNode Id="cf5c2929-4c6a-4f9d-af43-080ffaa1a46b" Title="ReaderWriterLockSlimLocker Class" Url="html/AB0E57F9.htm">
       <HelpTOCNode Title="ReaderWriterLockSlimLocker Members" Url="html/B2D1B50B.htm" />
-      <HelpTOCNode Id="f4a1c44c-a67e-4747-81d2-ca7ab9e65873" Title="ReaderWriterLockSlimLocker Constructor " Url="html/C73BDB55.htm">
+      <HelpTOCNode Id="91e9bfe4-3850-46d5-b36c-3778d6757566" Title="ReaderWriterLockSlimLocker Constructor " Url="html/C73BDB55.htm">
         <HelpTOCNode Title="ReaderWriterLockSlimLocker Constructor " Url="html/CB2770C7.htm" />
         <HelpTOCNode Title="ReaderWriterLockSlimLocker Constructor (ReaderWriterLockSlim)" Url="html/6B5631B2.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="ad4d0056-b214-4309-a839-4bed344f3cfc" Title="ReaderWriterLockSlimLocker Methods" Url="html/CC7AC7BC.htm">
+      <HelpTOCNode Id="94522b8e-57dc-41bc-afdc-9f6875ddbac3" Title="ReaderWriterLockSlimLocker Methods" Url="html/CC7AC7BC.htm">
         <HelpTOCNode Title="EnterReadLock Method " Url="html/F12D8057.htm" />
         <HelpTOCNode Title="EnterUpgradeableReadLock Method " Url="html/CE9E1E69.htm" />
         <HelpTOCNode Title="EnterWriteLock Method " Url="html/BBEAA00D.htm" />
@@ -89,125 +89,125 @@
         <HelpTOCNode Title="TryEnterWriteLock Method " Url="html/1645A95B.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="02aed245-53b7-4474-b434-2280d8fe14b0" Title="ReadLock Class" Url="html/5FDCF685.htm">
+    <HelpTOCNode Id="0a9bf8a2-6eb4-425e-be2e-0493f39ace84" Title="ReadLock Class" Url="html/5FDCF685.htm">
       <HelpTOCNode Title="ReadLock Members" Url="html/902286CA.htm" />
-      <HelpTOCNode Id="f0da4416-6124-42ef-9e73-b60f018e0387" Title="ReadLock Constructor " Url="html/6512F190.htm">
+      <HelpTOCNode Id="ebcb6c7d-ffd6-4f6c-b772-7fcec6fd0a30" Title="ReadLock Constructor " Url="html/6512F190.htm">
         <HelpTOCNode Title="ReadLock Constructor (ILocker)" Url="html/D3C68D9C.htm" />
         <HelpTOCNode Title="ReadLock Constructor (ILocker, TimeSpan)" Url="html/70A4BD03.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="f62f252f-aac2-4870-b48c-93fcf272c028" Title="ReadLock Methods" Url="html/225BA7E2.htm">
+      <HelpTOCNode Id="e9ae7f1e-a4da-43b7-9e72-c8190a5efd5d" Title="ReadLock Methods" Url="html/225BA7E2.htm">
         <HelpTOCNode Title="Dispose Method " Url="html/C722D560.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ReadLock Properties" Url="html/914A7458.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="e150978b-cf89-4699-8f72-9e14e7141d94" Title="ReadOnlySyncObject(T) Class" Url="html/82548555.htm">
+    <HelpTOCNode Id="1b1462b8-1212-47f7-b386-a0fdd261fb9a" Title="ReadOnlySyncObject(T) Class" Url="html/82548555.htm">
       <HelpTOCNode Title="ReadOnlySyncObject(T) Members" Url="html/61F5BF2A.htm" />
-      <HelpTOCNode Id="60b57485-2c40-4cb8-bd75-29274f4ca3ca" Title="ReadOnlySyncObject(T) Constructor " Url="html/5B8F9118.htm">
+      <HelpTOCNode Id="3247ce75-c019-4a4c-a4d0-da53ea10587f" Title="ReadOnlySyncObject(T) Constructor " Url="html/5B8F9118.htm">
         <HelpTOCNode Title="ReadOnlySyncObject(T) Constructor (T)" Url="html/BEEEF0B3.htm" />
         <HelpTOCNode Title="ReadOnlySyncObject(T) Constructor (T, ILocker)" Url="html/90F9E7.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="db57ee4a-af52-4989-9ffc-ed1f1cd0c12a" Title="ReadOnlySyncObject(T) Fields" Url="html/50137730.htm">
+      <HelpTOCNode Id="2a05d990-5656-4992-99d0-afd98fb95a3a" Title="ReadOnlySyncObject(T) Fields" Url="html/50137730.htm">
         <HelpTOCNode Title="UnsyncField Field" Url="html/C80CA059.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="f51a8393-90a6-431c-aafb-be63d6c17e9e" Title="ReadOnlySyncObject(T) Methods" Url="html/B3635293.htm">
-        <HelpTOCNode Id="ee9c1e85-23a2-46b8-b1ed-5f4c8fa6a87b" Title="DoRead Method " Url="html/2351AB6E.htm">
+      <HelpTOCNode Id="e77cec88-85f3-43cf-be45-fd2f889246a6" Title="ReadOnlySyncObject(T) Methods" Url="html/B3635293.htm">
+        <HelpTOCNode Id="f3f0346b-a993-40e6-8277-331837d0f2d7" Title="DoRead Method " Url="html/2351AB6E.htm">
           <HelpTOCNode Title="DoRead Method (Action(T))" Url="html/57B886AA.htm" />
           <HelpTOCNode Title="DoRead(TR) Method (Func(T, TR))" Url="html/3D28F5D7.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="48c41f42-43f8-4eba-a103-7caeb9be865c" Title="DoWrite Method " Url="html/DE2A2E41.htm">
+        <HelpTOCNode Id="47d2cb2e-e58f-4cf5-b3b7-e57902ae4fb0" Title="DoWrite Method " Url="html/DE2A2E41.htm">
           <HelpTOCNode Title="DoWrite Method (Action(T))" Url="html/758AB185.htm" />
           <HelpTOCNode Title="DoWrite(TR) Method (Func(T, TR))" Url="html/9CC5BFD.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="5bda4af3-c067-42b9-8013-56bf799330a8" Title="ReadLock Method " Url="html/B80D29D8.htm">
+        <HelpTOCNode Id="64504b1e-2553-4aeb-ab7f-bb74a8a45049" Title="ReadLock Method " Url="html/B80D29D8.htm">
           <HelpTOCNode Title="ReadLock Method " Url="html/36A894CC.htm" />
           <HelpTOCNode Title="ReadLock Method (TimeSpan)" Url="html/CF4FD356.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="20154987-4635-45a2-89e5-4c305b9f9944" Title="UpgradeableReadLock Method " Url="html/DF0D825E.htm">
+        <HelpTOCNode Id="86a76d1e-eea1-4810-a697-ff6fa46874f6" Title="UpgradeableReadLock Method " Url="html/DF0D825E.htm">
           <HelpTOCNode Title="UpgradeableReadLock Method " Url="html/29017024.htm" />
           <HelpTOCNode Title="UpgradeableReadLock Method (TimeSpan)" Url="html/39A68C4D.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="dca38f28-d555-4f83-8e39-b6ed79299c85" Title="WriteLock Method " Url="html/584B2984.htm">
+        <HelpTOCNode Id="b491e9c4-15e1-46e6-84ba-a070e79d3e49" Title="WriteLock Method " Url="html/584B2984.htm">
           <HelpTOCNode Title="WriteLock Method " Url="html/267971D2.htm" />
           <HelpTOCNode Title="WriteLock Method (TimeSpan)" Url="html/ABDEE216.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="929ee76d-fd47-4004-9139-0e934587bb1d" Title="ReadOnlySyncObject(T) Properties" Url="html/4F49D764.htm">
+      <HelpTOCNode Id="63d682b3-2d03-494b-81c5-b3f275d2bc3b" Title="ReadOnlySyncObject(T) Properties" Url="html/4F49D764.htm">
         <HelpTOCNode Title="Locker Property " Url="html/3809D34D.htm" />
         <HelpTOCNode Title="Sync Property " Url="html/B6F577C0.htm" />
         <HelpTOCNode Title="Unsync Property " Url="html/986D72A1.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5ca66d23-fee3-4261-a7ea-749aec81bca9" Title="SyncEnumerator(T) Class" Url="html/3C74B322.htm">
+    <HelpTOCNode Id="ae9efc76-2a53-4db4-8fdb-37f331d41240" Title="SyncEnumerator(T) Class" Url="html/3C74B322.htm">
       <HelpTOCNode Title="SyncEnumerator(T) Members" Url="html/A65495D7.htm" />
-      <HelpTOCNode Id="02f4219a-341a-41d1-b3ff-389d33b5627c" Title="SyncEnumerator(T) Constructor " Url="html/3853644E.htm">
+      <HelpTOCNode Id="e6463648-64c5-4bfd-9118-43c282e96415" Title="SyncEnumerator(T) Constructor " Url="html/3853644E.htm">
         <HelpTOCNode Title="SyncEnumerator(T) Constructor (IEnumerable(T), ILocker, Boolean)" Url="html/C974D0D8.htm" />
         <HelpTOCNode Title="SyncEnumerator(T) Constructor (IEnumerable(T), ILocker, TimeSpan, Boolean)" Url="html/9874639.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="d5bcf0b9-4c1f-4d2d-85a7-b8252c0ece85" Title="SyncEnumerator(T) Methods" Url="html/C2E5C939.htm">
+      <HelpTOCNode Id="f3b3c1cd-80a1-4a04-84c6-433787d93e31" Title="SyncEnumerator(T) Methods" Url="html/C2E5C939.htm">
         <HelpTOCNode Title="Dispose Method " Url="html/99E6D188.htm" />
         <HelpTOCNode Title="GetEnumerator Method " Url="html/985820A9.htm" />
         <HelpTOCNode Title="MoveNext Method " Url="html/B26202E8.htm" />
         <HelpTOCNode Title="Reset Method " Url="html/110D5EE4.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="a87dba14-246c-4048-8d6a-3cc773f89f0f" Title="SyncEnumerator(T) Properties" Url="html/EEC168CD.htm">
+      <HelpTOCNode Id="a8a9ab87-6ace-4e5f-bcf6-994d85218d83" Title="SyncEnumerator(T) Properties" Url="html/EEC168CD.htm">
         <HelpTOCNode Title="Current Property " Url="html/45F202DA.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="bcf8f4d3-083f-48fc-b028-271b9290d204" Title="SyncObject(T) Class" Url="html/932629.htm">
+    <HelpTOCNode Id="88b9cf13-caed-4f9c-bfc3-be52257e0174" Title="SyncObject(T) Class" Url="html/932629.htm">
       <HelpTOCNode Title="SyncObject(T) Members" Url="html/D2CCC2EC.htm" />
-      <HelpTOCNode Id="6d28a141-d3ad-4b83-b94f-16a764b367e3" Title="SyncObject(T) Constructor " Url="html/1CDF7B9.htm">
+      <HelpTOCNode Id="2b9d547a-cd01-49d3-b110-b796273a5926" Title="SyncObject(T) Constructor " Url="html/1CDF7B9.htm">
         <HelpTOCNode Title="SyncObject(T) Constructor (T)" Url="html/B32E6DCF.htm" />
         <HelpTOCNode Title="SyncObject(T) Constructor (T, ILocker)" Url="html/38235F2F.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="2404d5fb-cf3b-4d28-8c80-835a365d1f5a" Title="SyncObject(T) Fields" Url="html/37D23AD9.htm">
+      <HelpTOCNode Id="caffbdc7-cddf-45c4-b1f9-9d0f106af817" Title="SyncObject(T) Fields" Url="html/37D23AD9.htm">
         <HelpTOCNode Title="UnsyncField Field" Url="html/F6187953.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="c51e00be-fbdf-4baf-a1da-38e8ac9cc6d6" Title="SyncObject(T) Methods" Url="html/A7240E2.htm">
-        <HelpTOCNode Id="86c48b24-6565-46b4-a625-131952779806" Title="DoRead Method " Url="html/7ABFF0D9.htm">
+      <HelpTOCNode Id="f5c53e73-66eb-4bd3-8d2d-14f638af5bf7" Title="SyncObject(T) Methods" Url="html/A7240E2.htm">
+        <HelpTOCNode Id="13f8e6bd-d039-420a-bc5c-0a5e2e41c5bd" Title="DoRead Method " Url="html/7ABFF0D9.htm">
           <HelpTOCNode Title="DoRead Method (Action(T))" Url="html/1D86ECAA.htm" />
           <HelpTOCNode Title="DoRead(TR) Method (Func(T, TR))" Url="html/CF274444.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="083efc0a-3100-42c7-b14f-5fe0a18f68ca" Title="DoWrite Method " Url="html/14AFD609.htm">
+        <HelpTOCNode Id="a61ae4d6-13d6-4792-bb5c-954633c4f453" Title="DoWrite Method " Url="html/14AFD609.htm">
           <HelpTOCNode Title="DoWrite Method (Action(T))" Url="html/39C71785.htm" />
           <HelpTOCNode Title="DoWrite(TR) Method (Func(T, TR))" Url="html/9643D56B.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="24bf1e03-a586-468b-be5b-f75f2a4aaf19" Title="ReadLock Method " Url="html/DDFAFD42.htm">
+        <HelpTOCNode Id="01d299fe-4460-4818-aebc-23ea85d8808b" Title="ReadLock Method " Url="html/DDFAFD42.htm">
           <HelpTOCNode Title="ReadLock Method " Url="html/BA791CBF.htm" />
           <HelpTOCNode Title="ReadLock Method (TimeSpan)" Url="html/A9FA3EEC.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="9c35a6bb-7687-479c-bcb1-a3581d427662" Title="UpgradeableReadLock Method " Url="html/71993F2.htm">
+        <HelpTOCNode Id="d2e9bc23-5eff-4c45-8e08-4cc145dc4b86" Title="UpgradeableReadLock Method " Url="html/71993F2.htm">
           <HelpTOCNode Title="UpgradeableReadLock Method " Url="html/5F2C10A6.htm" />
           <HelpTOCNode Title="UpgradeableReadLock Method (TimeSpan)" Url="html/144F3945.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="8cf81450-1ecb-4ec5-b66b-424d03443808" Title="WriteLock Method " Url="html/3F64E1EA.htm">
+        <HelpTOCNode Id="b81a3aab-7ad2-4ef6-be1c-1744c6d6eb2f" Title="WriteLock Method " Url="html/3F64E1EA.htm">
           <HelpTOCNode Title="WriteLock Method " Url="html/B58C6A7D.htm" />
           <HelpTOCNode Title="WriteLock Method (TimeSpan)" Url="html/C1FC7EC.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ef376cc2-b052-4989-ba5c-1b12a84b033c" Title="SyncObject(T) Properties" Url="html/43D2FFBC.htm">
+      <HelpTOCNode Id="6e972169-1335-4299-a491-6f2be6c83204" Title="SyncObject(T) Properties" Url="html/43D2FFBC.htm">
         <HelpTOCNode Title="Locker Property " Url="html/EE0B2006.htm" />
         <HelpTOCNode Title="Sync Property " Url="html/767377FA.htm" />
         <HelpTOCNode Title="Unsync Property " Url="html/C1A8BF5C.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="7b9b0bf6-c73f-43cc-971b-beda95ab77f8" Title="UpgradeableReadLock Class" Url="html/CDA8FFD9.htm">
+    <HelpTOCNode Id="26d965f4-2351-4f8f-b4c3-dd34593ef7fc" Title="UpgradeableReadLock Class" Url="html/CDA8FFD9.htm">
       <HelpTOCNode Title="UpgradeableReadLock Members" Url="html/4438609C.htm" />
-      <HelpTOCNode Id="20d714c7-dbaf-4094-be5a-14acde49d8a9" Title="UpgradeableReadLock Constructor " Url="html/9FE9266C.htm">
+      <HelpTOCNode Id="cf27ead3-c30b-44a5-bac7-a8ee50ad0cf4" Title="UpgradeableReadLock Constructor " Url="html/9FE9266C.htm">
         <HelpTOCNode Title="UpgradeableReadLock Constructor (ILocker)" Url="html/5D0A4732.htm" />
         <HelpTOCNode Title="UpgradeableReadLock Constructor (ILocker, TimeSpan)" Url="html/8252215E.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="331ea07b-478f-4831-a127-23c8236cb292" Title="UpgradeableReadLock Methods" Url="html/B5393D2F.htm">
+      <HelpTOCNode Id="64281ad5-53bf-4e3b-9130-52fc4e0b5fb8" Title="UpgradeableReadLock Methods" Url="html/B5393D2F.htm">
         <HelpTOCNode Title="Dispose Method " Url="html/2956D923.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="UpgradeableReadLock Properties" Url="html/34DB261E.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d0c373b6-0b20-4433-91a7-8cf97847b55f" Title="WriteLock Class" Url="html/64AEAAC5.htm">
+    <HelpTOCNode Id="2bc11951-ba62-434d-b7cc-096308b4731d" Title="WriteLock Class" Url="html/64AEAAC5.htm">
       <HelpTOCNode Title="WriteLock Members" Url="html/C64441EC.htm" />
-      <HelpTOCNode Id="ad58913f-57cd-41ee-b463-a15cb74db867" Title="WriteLock Constructor " Url="html/9057C5B5.htm">
+      <HelpTOCNode Id="46876b9c-e7da-43a6-b80f-3583f0d6c425" Title="WriteLock Constructor " Url="html/9057C5B5.htm">
         <HelpTOCNode Title="WriteLock Constructor (ILocker)" Url="html/2A7BD5CC.htm" />
         <HelpTOCNode Title="WriteLock Constructor (ILocker, TimeSpan)" Url="html/5A9DA9FC.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="f06e5f2f-7885-4719-856d-94948611711b" Title="WriteLock Methods" Url="html/7CAAF705.htm">
+      <HelpTOCNode Id="a218bb39-e8b7-4ec5-87ae-d700e02bde85" Title="WriteLock Methods" Url="html/7CAAF705.htm">
         <HelpTOCNode Title="Dispose Method " Url="html/3FB5166F.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="WriteLock Properties" Url="html/516EB1C2.htm" />

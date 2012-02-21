@@ -60,7 +60,7 @@
   </PropertyGroup>
   <!-- Import the SHFB build targets -->
   <Import Project="$(SHFBROOT)\SandcastleHelpFileBuilder.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>rename "$(ProjectDir)Api\Index.html" "index.html"</PostBuildEvent>
-  </PropertyGroup>
+  <Target Name="AfterBuild">
+	<Copy SourceFiles="$(ProjectDir)Api\Index.html" DestinationFiles="$(ProjectDir)Api\index.html"></Copy>
+  </Target>
 </Project>
