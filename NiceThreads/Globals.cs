@@ -15,6 +15,18 @@
  * 
  */
 
+ #region Doxygen Comments
+
+/** @mainpage NiceThreads API Documentation
+ * NiceThreads is a simple threading utility library designed to make
+ * multiple .NET threading classes easier to use through a more consistent
+ * API and various convenience classes. 
+ */
+
+//! @namespace NiceThreads The primary NiceThreads namespace.
+
+#endregion
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
