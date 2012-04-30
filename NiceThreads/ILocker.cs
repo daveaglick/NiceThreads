@@ -22,63 +22,84 @@ using System.Text;
 
 namespace NiceThreads
 {
-    /// <summary>
-    /// A consistent wrapper for different types of locking primitives. Not all
-    /// methods have appropriate analogs for all lock types (for example, the standard
-    /// Monitor class does not distinguish between read and write locks, so all methods
-    /// in this class just lock the Monitor).
-    /// </summary>
-    public interface ILocker
-    {
-        /// <summary>
-        /// Enters a read lock.
-        /// </summary>
-        void EnterReadLock();
+    ///// <summary>
+    ///// A consistent wrapper for different types of locking primitives. Not all
+    ///// methods have appropriate analogs for all lock types (for example, the standard
+    ///// Monitor class does not distinguish between read and write locks, so all methods
+    ///// in this class just lock the Monitor).
+    ///// </summary>
+    //public interface ILocker
+    //{
+    //    /// <summary>
+    //    /// Enters a read lock.
+    //    /// </summary>
+    //    void EnterReadLock();
 
-        /// <summary>
-        /// Enters a write lock.
-        /// </summary>
-        void EnterWriteLock();
+    //    /// <summary>
+    //    /// Enters a write lock.
+    //    /// </summary>
+    //    void EnterWriteLock();
 
-        /// <summary>
-        /// Enters an upgradeable read lock.
-        /// </summary>
-        void EnterUpgradeableReadLock();
+    //    /// <summary>
+    //    /// Enters an upgradeable read lock.
+    //    /// </summary>
+    //    void EnterUpgradeableReadLock();
 
-        /// <summary>
-        /// Tries to enter a read lock.
-        /// </summary>
-        /// <param name="timeout">The timeout.</param>
-        /// <returns>True if the lock was succesfully entered before the timeout.</returns>
-        bool TryEnterReadLock(TimeSpan timeout);
+    //    /// <summary>
+    //    /// Enters a read lock.
+    //    /// </summary>
+    //    /// <param name="timeout">The timeout after which, if a lock hasn't been
+    //    /// acquired, a TimeoutException will be thrown.</param>
+    //    void EnterReadLock(TimeSpan timeout);
 
-        /// <summary>
-        /// Tries to enter a write lock.
-        /// </summary>
-        /// <param name="timeout">The timeout.</param>
-        /// <returns>True if the lock was succesfully entered before the timeout.</returns>
-        bool TryEnterWriteLock(TimeSpan timeout);
+    //    /// <summary>
+    //    /// Enters a write lock.
+    //    /// </summary>
+    //    /// <param name="timeout">The timeout after which, if a lock hasn't been
+    //    /// acquired, a TimeoutException will be thrown.</param>
+    //    void EnterWriteLock(TimeSpan timeout);
 
-        /// <summary>
-        /// Tries to enter an upgradeable read lock.
-        /// </summary>
-        /// <param name="timeout">The timeout.</param>
-        /// <returns>True if the lock was succesfully entered before the timeout.</returns>
-        bool TryEnterUpgradeableReadLock(TimeSpan timeout);
+    //    /// <summary>
+    //    /// Enters an upgradeable read lock.
+    //    /// </summary>
+    //    /// <param name="timeout">The timeout after which, if a lock hasn't been
+    //    /// acquired, a TimeoutException will be thrown.</param>
+    //    void EnterUpgradeableReadLock(TimeSpan timeout);
 
-        /// <summary>
-        /// Exits a read lock.
-        /// </summary>
-        void ExitReadLock();
+    //    /// <summary>
+    //    /// Tries to enter a read lock.
+    //    /// </summary>
+    //    /// <param name="timeout">The timeout.</param>
+    //    /// <returns>True if the lock was succesfully entered before the timeout.</returns>
+    //    bool TryEnterReadLock(TimeSpan timeout);
 
-        /// <summary>
-        /// Exits a write lock.
-        /// </summary>
-        void ExitWriteLock();
+    //    /// <summary>
+    //    /// Tries to enter a write lock.
+    //    /// </summary>
+    //    /// <param name="timeout">The timeout.</param>
+    //    /// <returns>True if the lock was succesfully entered before the timeout.</returns>
+    //    bool TryEnterWriteLock(TimeSpan timeout);
 
-        /// <summary>
-        /// Exits an upgradeable read lock.
-        /// </summary>
-        void ExitUpgradeableReadLock();
-    }
+    //    /// <summary>
+    //    /// Tries to enter an upgradeable read lock.
+    //    /// </summary>
+    //    /// <param name="timeout">The timeout.</param>
+    //    /// <returns>True if the lock was succesfully entered before the timeout.</returns>
+    //    bool TryEnterUpgradeableReadLock(TimeSpan timeout);
+
+    //    /// <summary>
+    //    /// Exits a read lock.
+    //    /// </summary>
+    //    void ExitReadLock();
+
+    //    /// <summary>
+    //    /// Exits a write lock.
+    //    /// </summary>
+    //    void ExitWriteLock();
+
+    //    /// <summary>
+    //    /// Exits an upgradeable read lock.
+    //    /// </summary>
+    //    void ExitUpgradeableReadLock();
+    //}
 }

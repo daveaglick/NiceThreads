@@ -24,63 +24,65 @@ using System.Threading;
 namespace NiceThreads
 {
     /// <summary>
-    /// Provides an ILocker implementation for the Monitor class.
+    /// Provides an Locker implementation for the Monitor class.
     /// Uses the static Monitor methods with this instance as the object.
     /// </summary>
-    public class MonitorLocker : ILocker
+    public class MonitorLocker : Locker
     {
+        private readonly object _lock = new object();
+
         /// <inheritdoc />
-        public void EnterReadLock()
+        public override void EnterReadLock()
         {
-            Monitor.Enter(this);
+            Monitor.Enter(_lock);
         }
 
         /// <inheritdoc />
-        public void EnterWriteLock()
+        public override void EnterWriteLock()
         {
-            Monitor.Enter(this);
+            Monitor.Enter(_lock);
         }
 
         /// <inheritdoc />
-        public void EnterUpgradeableReadLock()
+        public override void EnterUpgradeableReadLock()
         {
-            Monitor.Enter(this);
+            Monitor.Enter(_lock);
         }
 
         /// <inheritdoc />
-        public bool TryEnterReadLock(TimeSpan timeout)
+        public override bool TryEnterReadLock(TimeSpan timeout)
         {
-            return Monitor.TryEnter(this, timeout);
+            return Monitor.TryEnter(_lock, timeout);
         }
 
         /// <inheritdoc />
-        public bool TryEnterWriteLock(TimeSpan timeout)
+        public override bool TryEnterWriteLock(TimeSpan timeout)
         {
-            return Monitor.TryEnter(this, timeout);
+            return Monitor.TryEnter(_lock, timeout);
         }
 
         /// <inheritdoc />
-        public bool TryEnterUpgradeableReadLock(TimeSpan timeout)
+        public override bool TryEnterUpgradeableReadLock(TimeSpan timeout)
         {
-            return Monitor.TryEnter(this, timeout);
+            return Monitor.TryEnter(_lock, timeout);
         }
 
         /// <inheritdoc />
-        public void ExitReadLock()
+        public override void ExitReadLock()
         {
-            Monitor.Exit(this);
+            Monitor.Exit(_lock);
         }
 
         /// <inheritdoc />
-        public void ExitWriteLock()
+        public override void ExitWriteLock()
         {
-            Monitor.Exit(this);
+            Monitor.Exit(_lock);
         }
 
         /// <inheritdoc />
-        public void ExitUpgradeableReadLock()
+        public override void ExitUpgradeableReadLock()
         {
-            Monitor.Exit(this);
+            Monitor.Exit(_lock);
         }
     }
 }

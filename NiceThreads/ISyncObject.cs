@@ -30,9 +30,9 @@ namespace NiceThreads
     public interface ISyncObject<T>
     {
         /// <summary>
-        /// Gets the ILocker used to manage access to the wrapped object.
+        /// Gets the Locker used to manage access to the wrapped object.
         /// </summary>
-        ILocker Locker { get; }
+        Locker Locker { get; }
 
         /// <summary>
         /// Gets a thread-safe synchronized reference to the wrapped object.

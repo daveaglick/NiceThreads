@@ -17,6 +17,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -24,32 +25,177 @@ using System.Threading;
 namespace NiceThreads
 {
     /// <summary>
-    /// Base class for ILocker wrappers that implement the disposable pattern.
+    /// Base class for Locker wrappers that implements the disposable pattern.
     /// </summary>
     public abstract class DisposableLock : IDisposable
     {
-        private readonly ILocker _locker;
+        private readonly Locker _locker;
+        private bool _disposed = false;
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="DisposableLock"/> class.
-        /// </summary>
-        /// <param name="locker">The locker to use.</param>
-        protected DisposableLock(ILocker locker)
+        #if DEBUG
+
+        private static readonly DisposableLockList WaitingLocks = new DisposableLockList();
+        private static readonly DisposableLockList HeldLocks = new DisposableLockList();
+
+        private LinkedListNode<DisposableLock> _node;
+        private DateTime? _requested = null;
+        private DateTime? _acquired = null;
+        private StackTrace _stackTrace = null;
+        private int? _threadId = null;
+
+        internal int? ThreadId
         {
-            _locker = locker;
+            get { return _threadId; }
+        }
+
+        internal StackTrace StackTrace
+        {
+            get { return _stackTrace; }
+        }
+
+        internal DateTime? Acquired
+        {
+            get { return _acquired; }
+        }
+
+        internal DateTime? Requested
+        {
+            get { return _requested; }
+        }
+
+        private void Waiting()
+        {
+            if (!Globals.EnableLogging) return;
+            _stackTrace = new StackTrace(2, true);
+            _threadId = Thread.CurrentThread.ManagedThreadId;
+            _requested = DateTime.UtcNow;
+            _node = WaitingLocks.AddLock(this);
+        }
+
+        private void Held()
+        {
+            if (!Globals.EnableLogging) return;
+            WaitingLocks.RemoveLock(_node);
+            _acquired = DateTime.UtcNow;
+            _node = HeldLocks.AddLock(this);
         }
 
         /// <summary>
-        /// Gets the ILocker that this DisposableLock wraps.
+        /// Appends the log information (if logging is enabled) to the StringBuilder.
         /// </summary>
-        public ILocker Locker
+        /// <param name="builder">The builder to append log information to.</param>
+        public static void AppendLog(StringBuilder builder)
+        {
+            if (!Globals.EnableLogging) return;
+            builder.AppendLine("Waiting");
+            builder.AppendLine("-------");
+            WaitingLocks.AppendLog(builder);
+            builder.AppendLine("Held");
+            builder.AppendLine("-------");
+            HeldLocks.AppendLog(builder);
+        }
+
+        /// <summary>
+        /// Outputs log information (if logging is enabled).
+        /// </summary>
+        public static string Log()
+        {
+            StringBuilder builder = new StringBuilder();
+            AppendLog(builder);
+            return builder.ToString();
+        }
+
+        #endif
+
+        /// <summary>
+        /// Initializes a new instance.
+        /// </summary>
+        /// <param name="locker">The locker.</param>
+        /// <param name="timeout">The timeout.</param>
+        protected DisposableLock(Locker locker, TimeSpan timeout)
+        {
+            _locker = locker;
+
+            #if DEBUG
+                Waiting();
+            #endif
+
+            try
+            {
+                EnterLock(timeout);
+            }
+            catch (Exception)
+            {
+                #if DEBUG
+                    if(_node != null) WaitingLocks.RemoveLock(_node);
+                #endif
+                throw;
+            }
+
+            #if DEBUG
+                Held();
+            #endif
+        }
+
+        /// <summary>
+        /// Initializes a new instance.
+        /// </summary>
+        /// <param name="locker">The locker.</param>
+        protected DisposableLock(Locker locker)
+        {
+            _locker = locker;
+
+            #if DEBUG
+                Waiting();
+
+                if(Globals.Timeout.HasValue)
+                {
+                    try
+                    {
+                        EnterLock(Globals.Timeout.Value);
+                    }
+                    catch (Exception)
+                    {
+                        #if DEBUG
+                            if(_node != null) WaitingLocks.RemoveLock(_node);
+                        #endif
+                        throw;
+                    }
+                    Held();
+                    return;
+                }
+            #endif
+
+            EnterLock();
+
+            #if DEBUG   
+                Held();
+            #endif
+        }
+
+        /// <summary>
+        /// Gets the Locker that this lock wraps.
+        /// </summary>
+        public Locker Locker
         {
             get { return _locker; }
         }
 
         /// <summary>
-        /// Unlocks the ILocker.
+        /// Unlocks the Locker.
         /// </summary>
-        public abstract void Dispose();
+        public void Dispose()
+        {
+            if (_disposed) return;
+            #if DEBUG
+                if(_node != null) HeldLocks.RemoveLock(_node);
+            #endif
+            ExitLock();
+            _disposed = true;
+        }
+
+        protected abstract void EnterLock();
+        protected abstract void EnterLock(TimeSpan timeout);
+        protected abstract void ExitLock();
     }
 }

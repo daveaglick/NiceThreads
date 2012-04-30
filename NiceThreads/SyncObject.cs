@@ -25,12 +25,12 @@ namespace NiceThreads
 {
     /// <summary>
     /// Implements a thread-safe wrapper around objects that normally wouldn't be thread-safe.
-    /// Uses a ReaderWriterLockSlim locking object if an alternate ILocker isn't specified.
+    /// Uses a ReaderWriterLockSlim locking object if an alternate Locker isn't specified.
     /// </summary>
     /// <typeparam name="T">The type of the object to be wrapped.</typeparam>
     public class SyncObject<T> : ISyncObject<T>
     {
-        private readonly ILocker _locker;
+        private readonly Locker _locker;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="SyncObject&lt;T&gt;"/> class.
@@ -46,14 +46,14 @@ namespace NiceThreads
         /// </summary>
         /// <param name="value">The object to wrap.</param>
         /// <param name="locker">The locker to use.</param>
-        public SyncObject(T value, ILocker locker)
+        public SyncObject(T value, Locker locker)
         {
             UnsyncField = value;
             _locker = locker;
         }
 
         /// <inheritdoc />
-        public ILocker Locker
+        public Locker Locker
         {
             get { return _locker; }
         }

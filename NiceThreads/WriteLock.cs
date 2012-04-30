@@ -33,22 +33,29 @@ namespace NiceThreads
         /// </summary>
         /// <param name="locker">The locker.</param>
         /// <param name="timeout">The timeout.</param>
-        public WriteLock(ILocker locker, TimeSpan timeout) : base(locker)
+        public WriteLock(Locker locker, TimeSpan timeout) : base(locker, timeout)
         {
-            if(!Locker.TryEnterWriteLock(timeout))
-            {
-                throw new TimeoutException();
-            }
         }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="WriteLock"/> class.
         /// </summary>
         /// <param name="locker">The locker.</param>
-        public WriteLock(ILocker locker) : this(locker, Globals.Timeout) { }
+        public WriteLock(Locker locker) : base(locker)
+        {
+        }
 
-        /// <inheritdoc />
-        public override void Dispose()
+        protected override void EnterLock()
+        {
+            Locker.EnterWriteLock();
+        }
+
+        protected override void EnterLock(TimeSpan timeout)
+        {
+            Locker.EnterWriteLock(timeout);
+        }
+
+        protected override void ExitLock()
         {
             Locker.ExitWriteLock();
         }

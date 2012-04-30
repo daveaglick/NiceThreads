@@ -33,22 +33,29 @@ namespace NiceThreads
         /// </summary>
         /// <param name="locker">The locker.</param>
         /// <param name="timeout">The timeout.</param>
-        public ReadLock(ILocker locker, TimeSpan timeout) : base(locker)
+        public ReadLock(Locker locker, TimeSpan timeout) : base(locker, timeout)
         {
-            if(!Locker.TryEnterReadLock(timeout))
-            {
-                throw new TimeoutException();
-            }
         }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ReadLock"/> class.
         /// </summary>
         /// <param name="locker">The locker.</param>
-        public ReadLock(ILocker locker) : this(locker, Globals.Timeout) { }
+        public ReadLock(Locker locker) : base(locker)
+        {
+        }
 
-        /// <inheritdoc />
-        public override void Dispose()
+        protected override void EnterLock()
+        {
+            Locker.EnterReadLock();
+        }
+
+        protected override void EnterLock(TimeSpan timeout)
+        {
+            Locker.EnterReadLock(timeout);
+        }
+
+        protected override void ExitLock()
         {
             Locker.ExitReadLock();
         }

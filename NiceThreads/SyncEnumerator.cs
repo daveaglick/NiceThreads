@@ -32,17 +32,17 @@ namespace NiceThreads
     public class SyncEnumerator<T> : IEnumerator<T>, IEnumerable<T>
     {
         private readonly IEnumerator<T> _enumerator;
-        private readonly ILocker _locker;
+        private DisposableLock _lock = null;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="SyncEnumerator&lt;T&gt;"/> class.
         /// </summary>
         /// <param name="enumerable">The enumerable to protect.</param>
         /// <param name="locker">The locker to use.</param>
-        /// <param name="locked">True indicates if the locker has already been locked (must be a read lock if so). If false, a read lock will be obtained.</param>
-        public SyncEnumerator(IEnumerable<T> enumerable, ILocker locker, bool locked = false)
-            : this(enumerable, locker, Globals.Timeout, locked)
+        public SyncEnumerator(IEnumerable<T> enumerable, Locker locker)
         {
+            _lock = new ReadLock(locker);
+            _enumerator = enumerable.GetEnumerator();
         }
 
         /// <summary>
@@ -51,59 +51,65 @@ namespace NiceThreads
         /// <param name="enumerable">The enumerable to protect.</param>
         /// <param name="locker">The locker to use.</param>
         /// <param name="timeout">The timeout - if a lock can't be obtained a TimeoutException will be thrown.</param>
-        /// <param name="locked">True indicates if the locker has already been locked (must be a read lock if so). If false, a read lock will be obtained.</param>
-        public SyncEnumerator(IEnumerable<T> enumerable, ILocker locker, TimeSpan timeout, bool locked = false)
+        public SyncEnumerator(IEnumerable<T> enumerable, Locker locker, TimeSpan timeout)
         {
-            _locker = locker;
-            if (!locked)
-            {
-                if(!_locker.TryEnterReadLock(timeout))
-                {
-                    throw new TimeoutException();
-                }
-            }
+            _lock = new ReadLock(locker, timeout);
             _enumerator = enumerable.GetEnumerator();
         }
 
         /// <inheritdoc />
         public void Dispose()
         {
-            _locker.ExitReadLock();
+            if (_lock == null) return;
+            _lock.Dispose();
+            _lock = null;
         }
 
         /// <inheritdoc />
         public bool MoveNext()
         {
+            if(_lock == null) throw new ObjectDisposedException("SyncEnumerator");
             return _enumerator.MoveNext();
         }
 
         /// <inheritdoc />
         public void Reset()
         {
+            if (_lock == null) throw new ObjectDisposedException("SyncEnumerator");
             _enumerator.Reset();
         }
 
         /// <inheritdoc />
         public T Current
         {
-            get { return _enumerator.Current; }
+            get
+            {
+                if (_lock == null) throw new ObjectDisposedException("SyncEnumerator");
+                return _enumerator.Current;
+            }
         }
 
         /// <inheritdoc />
         object IEnumerator.Current
         {
-            get { return Current; }
+            get
+            {
+                if (_lock == null) throw new ObjectDisposedException("SyncEnumerator");
+                return Current;
+            }
         }
 
         /// <inheritdoc />
         public IEnumerator<T> GetEnumerator()
         {
+            if (_lock == null) throw new ObjectDisposedException("SyncEnumerator");
             return this;
         }
 
         /// <inheritdoc />
         IEnumerator IEnumerable.GetEnumerator()
         {
+            if (_lock == null) throw new ObjectDisposedException("SyncEnumerator");
             return this;
         }
     }

@@ -23,15 +23,55 @@ using System.Threading;
 
 namespace NiceThreads
 {
-    internal class Globals
+    /// <summary>
+    /// Contains global methods and properties.
+    /// </summary>
+    public static class Globals
     {
-        // This is a global timeout value - acts as a failsafe in case a lock doesn't get released
-        internal readonly static TimeSpan Timeout = TimeSpan.FromMinutes(5);
+        private static TimeSpan? _timeout = TimeSpan.FromMinutes(5);
 
-        // Returns a default ILocker type (currently ReaderWriterLockSlim based)
-        internal static ILocker GetDefaultLocker()
+        /// <summary>
+        /// Gets or sets a global timeout value. This is used in debug builds for disposable locks as a failsafe.
+        /// Even if no timeout is specified, if this is not null (default is 5 minutes) a TimeoutException
+        /// will be thrown if the lock cannot be acquired.
+        /// </summary>
+        /// <value>
+        /// The global timeout or null for no global timeout.
+        /// </value>
+        public static TimeSpan? Timeout
         {
-            return  new ReaderWriterLockSlimLocker();
+            get { return _timeout; }
+            set { _timeout = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the call stack and initiator thread should be logged
+        /// for disposable locks when running in debug mode . This helps with debugging by allowing a
+        /// view into all held locks and their points of origination.
+        /// </summary>
+        /// <value>
+        ///   <c>true</c> if logging should be enabled; otherwise, <c>false</c>.
+        /// </value>
+        public static bool EnableLogging { get; set; }
+
+        private static Func<Locker> _defaultLockerFunc = () => new ReaderWriterLockSlimLocker();
+
+        /// <summary>
+        /// Sets the default locker function that is used when a new lock is created (such as for a SyncObject)
+        /// an a default Locker instance is needed. By default, this is set to create a new ReaderWriteLockSlimLocker.
+        /// </summary>
+        /// <value>
+        /// The default locker function.
+        /// </value>
+        public static Func<Locker> DefaultLockerFunc
+        {
+            set { if (value != null) _defaultLockerFunc = value; }
+        }
+
+        // Returns a default Locker type (currently ReaderWriterLockSlim based)
+        internal static Locker GetDefaultLocker()
+        {
+            return _defaultLockerFunc();
         }
     }
 }

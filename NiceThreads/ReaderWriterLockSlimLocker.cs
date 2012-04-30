@@ -24,9 +24,9 @@ using System.Threading;
 namespace NiceThreads
 {
     /// <summary>
-    /// Provides an ILocker implementation for the ReaderWriterLockSlim class.
+    /// Provides an Locker implementation for the ReaderWriterLockSlim class.
     /// </summary>
-    public class ReaderWriterLockSlimLocker : ILocker
+    public class ReaderWriterLockSlimLocker : Locker
     {
         private readonly ReaderWriterLockSlim _readerWriterLockSlim;
 
@@ -49,55 +49,55 @@ namespace NiceThreads
         }
 
         /// <inheritdoc />
-        public void EnterReadLock()
+        public override void EnterReadLock()
         {
             _readerWriterLockSlim.EnterReadLock();
         }
 
         /// <inheritdoc />
-        public void EnterWriteLock()
+        public override void EnterWriteLock()
         {
             _readerWriterLockSlim.EnterWriteLock();
         }
 
         /// <inheritdoc />
-        public void EnterUpgradeableReadLock()
+        public override void EnterUpgradeableReadLock()
         {
             _readerWriterLockSlim.EnterUpgradeableReadLock();
         }
 
         /// <inheritdoc />
-        public bool TryEnterReadLock(TimeSpan timeout)
+        public override bool TryEnterReadLock(TimeSpan timeout)
         {
             return _readerWriterLockSlim.TryEnterReadLock(timeout);
         }
 
         /// <inheritdoc />
-        public bool TryEnterWriteLock(TimeSpan timeout)
+        public override bool TryEnterWriteLock(TimeSpan timeout)
         {
             return _readerWriterLockSlim.TryEnterWriteLock(timeout);
         }
 
         /// <inheritdoc />
-        public bool TryEnterUpgradeableReadLock(TimeSpan timeout)
+        public override bool TryEnterUpgradeableReadLock(TimeSpan timeout)
         {
             return _readerWriterLockSlim.TryEnterUpgradeableReadLock(timeout);
         }
 
         /// <inheritdoc />
-        public void ExitReadLock()
+        public override void ExitReadLock()
         {
             _readerWriterLockSlim.ExitReadLock();
         }
 
         /// <inheritdoc />
-        public void ExitWriteLock()
+        public override void ExitWriteLock()
         {
             _readerWriterLockSlim.ExitWriteLock();
         }
 
         /// <inheritdoc />
-        public void ExitUpgradeableReadLock()
+        public override void ExitUpgradeableReadLock()
         {
             _readerWriterLockSlim.ExitUpgradeableReadLock();
         }

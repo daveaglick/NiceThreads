@@ -25,12 +25,12 @@ namespace NiceThreads
 {
     /// <summary>
     /// Mimics the semantics of a readonly field in that the underlying object cannot be changed once constructed.
-    /// Uses a ReaderWriterLockSlim locking object if an alternate ILocker isn't specified.
+    /// Uses a ReaderWriterLockSlim locking object if an alternate Locker isn't specified.
     /// </summary>
     /// <typeparam name="T">The type of the object to be wrapped.</typeparam>
     public class ReadOnlySyncObject<T> : ISyncObject<T>
     {
-        private readonly ILocker _locker;
+        private readonly Locker _locker;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ReadOnlySyncObject&lt;T&gt;"/> class.
@@ -46,14 +46,14 @@ namespace NiceThreads
         /// </summary>
         /// <param name="value">The object to wrap.</param>
         /// <param name="locker">The locker to use.</param>
-        public ReadOnlySyncObject(T value, ILocker locker)
+        public ReadOnlySyncObject(T value, Locker locker)
         {
             UnsyncField = value;
             _locker = locker;
         }
 
         /// <inheritdoc />
-        public ILocker Locker
+        public Locker Locker
         {
             get { return _locker; }
         }
